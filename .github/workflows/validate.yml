@@ -16,11 +16,11 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
       - name: Install Android verification tools
-        run: sdkmanager 'build-tools;35.0.0'
+        run: python3 scripts/install_build_tools.py "$RUNNER_TEMP/android-tools"
       - name: Validate APKs, schemas, signatures and collisions
         run: |
           if [ -f index.min.json ]; then
-            python3 scripts/validate.py --build-tools "$ANDROID_HOME/build-tools/35.0.0"
+            python3 scripts/validate.py --build-tools "$RUNNER_TEMP/android-tools/android-15"
           fi
       - name: Check upgrade continuity
         env:
@@ -33,4 +33,4 @@ jobs:
       - name: Rebuild the locked distribution
         run: |
           python3 scripts/build_repository.py --output "$RUNNER_TEMP/distribution"
-          python3 scripts/validate.py --root "$RUNNER_TEMP/distribution" --build-tools "$ANDROID_HOME/build-tools/35.0.0"
+          python3 scripts/validate.py --root "$RUNNER_TEMP/distribution" --build-tools "$RUNNER_TEMP/android-tools/android-15"

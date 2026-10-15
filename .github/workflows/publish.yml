@@ -16,11 +16,11 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
-      - run: sdkmanager 'build-tools;35.0.0'
+      - run: python3 scripts/install_build_tools.py "$RUNNER_TEMP/android-tools"
       - name: Build and validate before changing public files
         run: |
           python3 scripts/build_repository.py --output "$RUNNER_TEMP/distribution"
-          python3 scripts/validate.py --root "$RUNNER_TEMP/distribution" --build-tools "$ANDROID_HOME/build-tools/35.0.0"
+          python3 scripts/validate.py --root "$RUNNER_TEMP/distribution" --build-tools "$RUNNER_TEMP/android-tools/android-15"
           cp "$RUNNER_TEMP/distribution/index.json" index.json
           cp "$RUNNER_TEMP/distribution/index.min.json" index.min.json
           mkdir -p apk icon
