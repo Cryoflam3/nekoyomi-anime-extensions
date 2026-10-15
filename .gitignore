@@ -1,0 +1,6 @@
+__pycache__/
+*.jks
+*.keystore
+local.properties
+.gradle/
+dist/

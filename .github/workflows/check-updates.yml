@@ -1,0 +1,20 @@
+name: Check upstream updates
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 8 * * 1'
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - run: python3 scripts/check_updates.py > upstream-changes.json
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: upstream-changes-for-review
+          path: upstream-changes.json

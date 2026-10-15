@@ -1,0 +1,36 @@
+name: Publish reviewed locked index
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: publish-main
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    environment: public-publishing
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - run: sdkmanager 'build-tools;35.0.0'
+      - name: Build and validate before changing public files
+        run: |
+          python3 scripts/build_repository.py --output "$RUNNER_TEMP/distribution"
+          python3 scripts/validate.py --root "$RUNNER_TEMP/distribution" --build-tools "$ANDROID_HOME/build-tools/35.0.0"
+          cp "$RUNNER_TEMP/distribution/index.json" index.json
+          cp "$RUNNER_TEMP/distribution/index.min.json" index.min.json
+          mkdir -p apk icon
+          cp -R "$RUNNER_TEMP/distribution/apk/." apk/
+          cp -R "$RUNNER_TEMP/distribution/icon/." icon/
+      - name: Publish without force or release replacement
+        run: |
+          git add index.json index.min.json apk icon
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Publish validated locked repository'
+          git push origin HEAD:main

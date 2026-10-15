@@ -1,0 +1,36 @@
+name: Validate and build repository
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Install Android verification tools
+        run: sdkmanager 'build-tools;35.0.0'
+      - name: Validate APKs, schemas, signatures and collisions
+        run: |
+          if [ -f index.min.json ]; then
+            python3 scripts/validate.py --build-tools "$ANDROID_HOME/build-tools/35.0.0"
+          fi
+      - name: Check upgrade continuity
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          if [ -n "$BASE_SHA" ] && [ "$BASE_SHA" != "0000000000000000000000000000000000000000" ] && git cat-file -e "$BASE_SHA:upstreams.lock.json" 2>/dev/null; then
+            git show "$BASE_SHA:upstreams.lock.json" > "$RUNNER_TEMP/previous-lock.json"
+            python3 scripts/check_transition.py "$RUNNER_TEMP/previous-lock.json" upstreams.lock.json
+          fi
+      - name: Rebuild the locked distribution
+        run: |
+          python3 scripts/build_repository.py --output "$RUNNER_TEMP/distribution"
+          python3 scripts/validate.py --root "$RUNNER_TEMP/distribution" --build-tools "$ANDROID_HOME/build-tools/35.0.0"
