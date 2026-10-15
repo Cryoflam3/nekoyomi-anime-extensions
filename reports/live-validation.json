@@ -1,0 +1,2956 @@
+{
+  "verified_at_utc": "2026-10-15T22:53:12.653011+00:00",
+  "base_url": "https://raw.githubusercontent.com/Cryoflam3/nekoyomi-anime-extensions/main/",
+  "endpoints": {
+    "repo.json": {
+      "http_status": 200,
+      "sha256": "ab0f05b269095c947a65282737ce65383929941fcc16577bc916b27955d6622b",
+      "bytes": 214
+    },
+    "index.min.json": {
+      "http_status": 200,
+      "sha256": "a51c3a46e130cf7654cf857ef7213495c4c7411d7cfc939ac5ab760aae90eedd",
+      "bytes": 81078
+    },
+    "index.json": {
+      "http_status": 200,
+      "sha256": "f59b05498c462e5a1c35dd95d6899831d39c4b8f3de3941f157e47435cde3f9a",
+      "bytes": 114107
+    }
+  },
+  "device_runtime": "not-tested",
+  "packages": [
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.animeonsen",
+      "apk": {
+        "http_status": 200,
+        "sha256": "6faa8a915e11e3d3a49ae2b148fd241246aacc0b7c6c88a671483e3ea266240f"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "334787c5bc3a5aa4047d377185e48b550d2deff940378aa66f4136b5f928a98f"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.animeworldindia",
+      "apk": {
+        "http_status": 200,
+        "sha256": "f93dfb7ed0875e77bc5944f60cd44e4614863d5ca05303f70ed4eb47da65d2d6"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "252f148f0ac6efbfb22e42c0562bc15c7f303a3ec0819a9a94cecdd5159fad74"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.animexin",
+      "apk": {
+        "http_status": 200,
+        "sha256": "346b8065133d606fedac3a3ae023dde489fdc0e61089300399442994d7cde449"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "c1a82df028331fcbc34e56360a267b840cf75182ea7178271f737ad9aac19409"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.anizone",
+      "apk": {
+        "http_status": 200,
+        "sha256": "1a74e7cf6e24a463e668fcff80a3cbbf797338474b657cc7e6e89b6bccb72187"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "ea7e558b359cb5e3e3d4233e73dffe184cc1be69afd13ce98d7e24e68fee9057"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.chineseanime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "b15f50ab4cc0aa366e0d58c23ab23785d965ffd0faf11bafe46d663f38768b7b"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "25032f1d6c73e337e5ab97efe69dce57e29e01d30fe5d844ebd0601db1505c02"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.debridindex",
+      "apk": {
+        "http_status": 200,
+        "sha256": "913f6d3d046e4a497723fadc5e3684c97abaf13898a113700c0bd666d9f7ee91"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "ad52d80f6839cbaa93e676a9e00f42e23d269ba68ecb6a8e395b109e772e7e2e"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.googledrive",
+      "apk": {
+        "http_status": 200,
+        "sha256": "a4566725ebf34ee910422395b1da82f7f04576170be54604aa9047630f547e5b"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "5bea0de68ebc80a1eed43a84e2abc0f4abb76cbe3eca03f8647e7512d77bc832"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.googledriveindex",
+      "apk": {
+        "http_status": 200,
+        "sha256": "f96c470edd4db41a8e6f56632903a5640ceeb2aae3e897c20c4458a0fca9bce7"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "f7d3bdf5f2ea8cbcfc92f953d5245a7d113df5773180d6f4d2830b7a0b8a74ab"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.hentaitorrent",
+      "apk": {
+        "http_status": 200,
+        "sha256": "cc8d2ee801924a69724b5aef882d1f7428bb764463f5a19967104df9e0d69706"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "d1b067b7ed2a680ad35fda4fcf3598b2c45de2891aae196bad7e7660a794986c"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.jable",
+      "apk": {
+        "http_status": 200,
+        "sha256": "34c3639d7bb065f7cbdd6a403e7dae08f6bee2b2503e8491779f2264cee9a357"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "84f2d646ed8d91891346d862a1d49204fa0f8f238b5706f9296aa3c4656d882d"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.javgg",
+      "apk": {
+        "http_status": 200,
+        "sha256": "db5a84a4367923248f7556e38b8ee1fe17d980a0af2b8f83fa781b8e21dd9a34"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "dc63117849a5c9b3565976bcdb711c23fc85f878ffc298b8b5eb203201de253c"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.javguru",
+      "apk": {
+        "http_status": 200,
+        "sha256": "f2b0cdc701e75198adcb121d9393a424cfa90f93277dc42254a67a7cdaed730a"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "7380ef4f15c7c43722778703e655a93ebf07912fd685d872a0da8971f22158ee"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.jellyfin",
+      "apk": {
+        "http_status": 200,
+        "sha256": "d00f28dd28ab4a789c4c42d2d9a580aa09bcba6c3f684db9e477badb00d0a28b"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "e41a05744821c9c6571818da3678af05235702e30b2c999375253802e0ee88aa"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.lmanime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "2de806b1aa58cba72a161878ae7b88b7f8e785b171a1db6333f9ef4917c9dda2"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "cdf42ef50d000ef9787e10e51265f2b2a2ee141e998f94433af4d5780f2801e9"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.missav",
+      "apk": {
+        "http_status": 200,
+        "sha256": "bff1bef1f4902be6594b460ce8dda0529c5ddbf8b61640d0c7bde8abb1e39485"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "b44a171e75f17cbe6bed84913670278ddb3bfe94080b8b31eeb2a7889051365a"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.movy",
+      "apk": {
+        "http_status": 200,
+        "sha256": "2ceeb61982cf1364693e9c312c06142d2c5ab4037fd94f981b1684faf20c8172"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "7cb258846149d42a8f88d95a4ecea1e469c1c5cdac2516e35b7565bd0faf6fe8"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.myreadingmanga",
+      "apk": {
+        "http_status": 200,
+        "sha256": "7e676483adbe9217929279ee3a0796f4fefcced71e27cefd17db35221deaa89c"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "eab159bb0c5f543134d14fe3fa163d4fcd657dfeb776141e6458901503a1120e"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.newgrounds",
+      "apk": {
+        "http_status": 200,
+        "sha256": "a10e6ba5e8827a63e8781de242b0de27c2fa51d625f98a7b2a44a50dbf1a688c"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "a97afa054f12c0a498814f333abaa700d244edb6817cb5c1b32371a1476b3583"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.nyaatorrent",
+      "apk": {
+        "http_status": 200,
+        "sha256": "6a558d3c999c78ce5cfec0d9affcd9747a3a90380d76763747f658c6c63d68ac"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "6d9ccc0952ce564e3fcc759b383058786f257477700aed3890a6d60e1ed0903d"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.ptorrent",
+      "apk": {
+        "http_status": 200,
+        "sha256": "546b7758cb4f51245bd87bfc791a39c8575df208143625ad4af248825d64b0af"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "b826e3895e9f83074efa5a4c84f97cf140812f3ce516da916b9d1def101048c8"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.rouvideo",
+      "apk": {
+        "http_status": 200,
+        "sha256": "9c7e668facdaedddffd5dc0617c2cab20b999c08e9c180b0abbef5353abd7fb1"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "0973ab4c9c83cd295607c907067035cea4557651a64cdf798b0d5b24a3b4969a"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.streamingcommunity",
+      "apk": {
+        "http_status": 200,
+        "sha256": "1f206146509dfa6b6c8c29ad70171a88be637839378d0c9053ee7aa1d185e470"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "542aff59a0ced0347b9ee44f677e9d05888bd16a8d24296ff0e1bed85423e6e0"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.stremio",
+      "apk": {
+        "http_status": 200,
+        "sha256": "70d1b39e81805ecb6ab775b2f6576521f6ed9b8bf8c9cc38e465e1caead9268d"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "93b10295de38c2e382b5abadc976698ebf2e22ace4ff57db0f9f7256f4fe1876"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.subsplease",
+      "apk": {
+        "http_status": 200,
+        "sha256": "c82a5557ed18ca0b7a8c0a140b36d98300dba25dfe73adb364645503d55b8bb5"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "27c084325c3a1a45bfe4154a028966844cd6b084c3fd4a55a61d829a92a57bad"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.supjav",
+      "apk": {
+        "http_status": 200,
+        "sha256": "f6aef0abf1122aa2448b7fae37b561c439cfd5bc484ced3e39a6f5e9af361653"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "9e6aec803bda90e922d1e2e244a0cca2533789e394a607f29fcc35a58c9c742a"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.torbox",
+      "apk": {
+        "http_status": 200,
+        "sha256": "af75848a50aae774fa505fd1aa80d7824c34f1b644f0c011308d2696b6e22789"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "1738963a1c79a8fa800d182550bb9b8b419266a763d20ff1c04a668d635159f5"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.torrentio",
+      "apk": {
+        "http_status": 200,
+        "sha256": "ce5c4a9215f2454ab8bc10317d1f2f697501557948587b2d5514159f0c66f1fd"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "326a0b4cd9aa933ea63a5f80c7748a72b8dd8ce40219568c47f13ff9a973aeac"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.torrentioanime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "cecda77cbb9c284e60ada1a0df5ca2d4c9772c33bbf41842e3220c59075e9d36"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "326a0b4cd9aa933ea63a5f80c7748a72b8dd8ce40219568c47f13ff9a973aeac"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.xnxx",
+      "apk": {
+        "http_status": 200,
+        "sha256": "0ae88e210f5cd1d25116bcbbe5d8a96312c599acec8760072bd8bd6633ca0dab"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "e03a528840651abebdcff1d8bef49b248d72273839e090fd2934f6493b93f12a"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.xvideos",
+      "apk": {
+        "http_status": 200,
+        "sha256": "7ca9eca4d99155974e299b0858a8d5e18f7d2942cbe29bf946e3956f7777b7f7"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "803516425d6a36ad041d0dded480489925803755624bad55cd279406cea201b4"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.all.yfantasy",
+      "apk": {
+        "http_status": 200,
+        "sha256": "90723690ba23911623eff99354751d15266473eeebee91b4da3c5354b660bb72"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "a74adb09d396ac821b874480d5422d602317f8ab2f295b5b1e82ef7a2e439403"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.ar.anime4up",
+      "apk": {
+        "http_status": 200,
+        "sha256": "0399c14b79c872236188f59acd660c50835a0d4d7cf5693aa9ee0c8ec8ecf89b"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "475ec9c61b4ccdcf46a2cc4727255f3ea5c2014f68d52e709dc6a1b160c81e39"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.ar.animeblkom",
+      "apk": {
+        "http_status": 200,
+        "sha256": "88202237d4ae02c84a30a7f2942d92d6be9897e97acd5b3771e782bb70e210e2"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "ba562d03256d866b9273244f4b3d2b1dd50cb257c7b78ac82c219ba240d8df38"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.ar.animeiat",
+      "apk": {
+        "http_status": 200,
+        "sha256": "7568a3d4ed99ae874e1043105b1aadb58db37e2b602fbf8232eae6765c592f04"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "c4c2a872306f3c14321c049c37e52dcd5ea7376285eb34347cbba33ec3a5ebe8"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.ar.animelek",
+      "apk": {
+        "http_status": 200,
+        "sha256": "c9a8813fd04586106a8915268559d448140ebe93c3fe7adba97d595debd5f3f1"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "f4288cb33d685590a4ff6c56b3e120e254376afd9405bf1fdbaa87d5aac155be"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.ar.animerco",
+      "apk": {
+        "http_status": 200,
+        "sha256": "c07f1bcfd898808ecd9b6d96a174b8dcf2a90346004c679db66ec4187b3a8f70"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "18e570b744ce05bb8d04f40d80788fd9a85dee1bd6c2f2b624e9f036e491386c"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.ar.arabanime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "3f7b52b4ebcc9bf50437742f56cb69d4d1168c72d3449db8f15018bf9c5f0968"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "2effe48f2002efb70756ac31b51d933fd95c17e7d59f27af55087c819b4c1d57"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.ar.arabseed",
+      "apk": {
+        "http_status": 200,
+        "sha256": "fde1c4dcd0dfdc24bbad8997da1646c71cbbf18c7b7294c3e399c9c7f38057f9"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "04286f4a6628ea053f30ab59c9de7df5811a8f2d43706c2c01d448f047ca8ec0"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.ar.asia2tv",
+      "apk": {
+        "http_status": 200,
+        "sha256": "9202ff2222de102087a02cc066e6e880086a5500a213a3d4ed4d564473c51ea3"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "ec1f2430a9af8fc43d0d49123c1d1ca2416b6b9d849ecb7d25e3a7940be8070a"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.ar.cimaleek",
+      "apk": {
+        "http_status": 200,
+        "sha256": "6c3819ff8e5003e49a7ba10bfc2272f55ba471e99689408f282473d91ca9d749"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "fd96bf77c8068e9ab2950708ddc29990611cf77ad5d7c4c237d9721922535bce"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.ar.egydead",
+      "apk": {
+        "http_status": 200,
+        "sha256": "29ab3ff08ac0cb7cc96e8cac92a804bb69bc0877ea8dda6aa8fc269721f6f204"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "9ed847cda4191a488efbc0cf5b507a938dfda0426788c3dd0f38c87d3036577f"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.ar.faselhd",
+      "apk": {
+        "http_status": 200,
+        "sha256": "3bfb06a962b5501e22d7f0b1ae1fa56b6ca65c66783c2b2cfcfdc8a3f9dd3a99"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "8f7ed45b1e862e1745b8e72198d645e3edb65d1bf2ffb7b1d81f4a9d2e4a8c87"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.ar.okanime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "c90c8d34728886bd83eea3e073cc2db17602b962993ae5764ebef3173e9804c2"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "c2e3d5cd53f6c3216eece9240be9d1d85c66474a11a1154f75526c518e6c5126"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.ar.tuktukcinema",
+      "apk": {
+        "http_status": 200,
+        "sha256": "fd988ad788a664950376950c78d508a2038a450ce2db93589d2e508e11846893"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "d5cb2124da5389e8e9e8ca5929a5c91d1e9a29272b1df26c9b2eb5ae8ed7f3a6"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.ar.witanime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "76e2bd910f8d625b1f9bfa6adb61a6584ffde3ffb57bf5b61d18103932c0a9af"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "483d169abc39c39572939735be1ab18545f82ceeac58e166d5a9e4de03267ca4"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.bg.filmifen",
+      "apk": {
+        "http_status": 200,
+        "sha256": "7992ed5ea8f3eebd8fd1d63fdd64bc0217b9f3662f48ebb5f78e860cf9655347"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "da964289473b5e706e43fe63553714c021fb980b0021a88708bd44a28599aa9b"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.de.animebase",
+      "apk": {
+        "http_status": 200,
+        "sha256": "0db2ba4a91604bb50c770f4c588fad9aa02552647fe0811681afbdc21f5b894c"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "f18c5c17c909cdad794ae928979cdda27b524850b74bf69a6fa417e4d0711ed4"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.de.animeloads",
+      "apk": {
+        "http_status": 200,
+        "sha256": "add7dcb4f0d50c7fa9849df995559caf98edcf152c36e52f67df3622e0a23f9b"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "a61436cdab638cf7d7b34f70f0b832460358e484e8b8c7a8cda914b96132b90f"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.de.animestream",
+      "apk": {
+        "http_status": 200,
+        "sha256": "ca48646bc8707c2ae22954517ee70af718224f85fcdc499f9005a11b78b14709"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "849e9708c3cfd821ee124c674a3e6a7d5f88c14d620f4a802020fe4709706165"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.de.animetoast",
+      "apk": {
+        "http_status": 200,
+        "sha256": "1aecb238e283473ebf9a1bc46beb72857b9c023d982be73af8cfea34f4499ba8"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "24e73007f14e1a8693a4ccaff6533ef414ea2a6508422d319b68bbae22f79418"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.de.aniworld",
+      "apk": {
+        "http_status": 200,
+        "sha256": "9d8fd308a3634bd0907270789d95f81207bb0d489c6aa13f5ff4d8afaea58030"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "1164a7da78f5d0e58a373321d44e76e3cbb42e62b5a13fe0fae3623145134d3e"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.de.filmpalast",
+      "apk": {
+        "http_status": 200,
+        "sha256": "b83807e353faa55999bc28b7bcd7848dfee3660a0b06b22cd5d2abf3e4b24655"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "8815d9a88b30e77f64f3c857933885c0f8a934a36803140d9cd210275ddd5577"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.de.kinoking",
+      "apk": {
+        "http_status": 200,
+        "sha256": "75c5fdcff8ac114505d3a59abd3bd89134c9718d25f63c839f80137326d10f43"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "155aa0cca360d7338cefd5d807e464ee372387c0b468c93a5ffced471517aec7"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.de.kool",
+      "apk": {
+        "http_status": 200,
+        "sha256": "4ad90c15786b4a349b537e29d66d27b40aa84b9bcf3b10ba7ac0986a64252e17"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "8d34b4b8c24fe48289e54a7da3513dd8494cbe323bf639ba63bfaf85c47e2ef8"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.de.moflixstream",
+      "apk": {
+        "http_status": 200,
+        "sha256": "627dfb661c93a8ed48d6e9fa19cc16b60fd13c475c0e2e4aa71123476e010b1c"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "625d3c938a13f7bf5860f7fae758cfa633b12f0ac323f5b277a4e1d65bed8b1e"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.de.movie4k",
+      "apk": {
+        "http_status": 200,
+        "sha256": "315f9cb9ee254840e7463ca3b91cc0112e09fc5af359ef678994ac77d0cb7d31"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "ec1c30e15d988ac2acdaea7495c85f87d61f34fa48bdc4c52256775d0486199f"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.de.serienstream",
+      "apk": {
+        "http_status": 200,
+        "sha256": "4139098983536e4801b4a21fc6a5b0d4138c237ea1749a7d2057e7fef4b36a44"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "2c0167ab9e96e1d6922907815241978e757af2e26a78004d561c20ee6f684ff9"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.anichi",
+      "apk": {
+        "http_status": 200,
+        "sha256": "993788d9ec32f4edbeb124e80795907596fad1eacbdbf299a627075dbed95d19"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "b531aab41ea8b2a0cadcc7f12bddedcda790d9e61cc53e7e40604edc4e22f4ba"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.anidb",
+      "apk": {
+        "http_status": 200,
+        "sha256": "b447e7e35400cacc8e348a4b49766e682782b376312ae7c059058d8c68bc82eb"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "fcb1f339b8580ee7c8ce0ea1d6ddb5afba794b5a0e4232240dfdc5086d8e8ce0"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.anihq",
+      "apk": {
+        "http_status": 200,
+        "sha256": "4867383719cf37e44d51d208eb439b61233f7f0863832c3918277b3578dc675f"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "8058da2d5934482e823bc9459fd018897de91ff45f93dbfd3e383123c2028763"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.anikage",
+      "apk": {
+        "http_status": 200,
+        "sha256": "b4872a9106a0f385bc119248bb802675d757d71fa65c4c98e865c6c3aa6c7eb1"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "863fcb8dc5b34eeae117a0050e26433b1c264a6aaab9ba2ef743db07eb39d85f"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.anikoto",
+      "apk": {
+        "http_status": 200,
+        "sha256": "0b4ec939eb5e890843879d06ef62c1ae996668bdad8641cea71b5c938c6aa49e"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "7cef2cc72d6e71c65aaac0eae81bbcf59aeda086fce7516e61d5ee158e5883c5"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.anikuro",
+      "apk": {
+        "http_status": 200,
+        "sha256": "748762048ad7a118396b8a67bfd0562838f281b75f63d63ddae344712adea032"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "f87c192c47d53a8bd749aa54f6962acbe3d24434fc0b58770634ab073b17522c"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.anilist",
+      "apk": {
+        "http_status": 200,
+        "sha256": "eed7fb805d71eb5c76de7791b578c546424b789a3f64f1e2850e834aad516e4f"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "fe571e8411cebf2a5964d7f177e0f648099a5b65ab03499eab7854b9c3f084cc"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.animegg",
+      "apk": {
+        "http_status": 200,
+        "sha256": "b177df7d0cffec82df81ee56b568393103d0bf28688c370657a8663f8c8c39ad"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "bf6b10474185d3c9113b50f2dec2a370b89ed802bc1818c6d113f71d9f9f9f8c"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.animekhor",
+      "apk": {
+        "http_status": 200,
+        "sha256": "121ed31dd02c6652ab03963b1df06e16b46639b1771ad6d50de02f25884182d0"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "913cf486e369a89725b52b2a342604374ac4a8ffafa9c4dd168aabcd18343624"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.animenosub",
+      "apk": {
+        "http_status": 200,
+        "sha256": "ac8bfa5b787136ec87446dddc5f2ecb983dc7b38eae2c186a46ae9d3bfba747a"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "001eb50b4b59fe544102fb2b0e67ffc1d3ea6ee3e3efd0958c8bb392dec12f56"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.animepahe",
+      "apk": {
+        "http_status": 200,
+        "sha256": "1b60eb776979c4c18c5b8aa1495ceb0d63cec5a78f5e95f92536f61c8f6f75e9"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "67c5e3ce40c4fa4e0c70e82018273b2fe7b0617d65dc578ab7cf083747c38023"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.animeparadise",
+      "apk": {
+        "http_status": 200,
+        "sha256": "040ea8a788a3f3c603062634a008ea988725e4f872cfd6b38945e38159a52a9c"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "9bcb37ca1e0916d79a7b774a56af7e4069c1fec18a1c48b216a9d3fca3da6ffe"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.animesogo",
+      "apk": {
+        "http_status": 200,
+        "sha256": "032df491cef08efc6add428ae97f77d266f402a83fb2807ff51e837ae22130cb"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "cafc7e32cb6f2e4752ea3209e501c0938d8d68f60fbf64fdce901b12dea04a44"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.animetake",
+      "apk": {
+        "http_status": 200,
+        "sha256": "67b735783f4467355b7602ff7df695b4764f2012f1a37edad1688c8e41732656"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "d0424289e31e7b4b772ecaf0c33b32058d9bf6ce681967bb21d4c73997fd8c33"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.animetoki",
+      "apk": {
+        "http_status": 200,
+        "sha256": "0bc4eb1ff7f00702aec8d1f4fdb9d6aaec2d382bda8148fd50f1f90b8e20ff12"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "99246ed9a0039142eedd99c05cb3a192b42d987841646d23fbd2bb2f729880bc"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.anipm",
+      "apk": {
+        "http_status": 200,
+        "sha256": "80574d636270cd9bf36041b68e8981ecd5ec12a3904ba9c3327f8dcc3f732a2d"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "b968754ce17ffbf2a7b0cc004c89b9614fcf562181e649f8d47bb8acde6fa0ca"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.aniwave",
+      "apk": {
+        "http_status": 200,
+        "sha256": "2996ef30f82bd1c0c7a83bb8cd356dfeb68b10db8b4c744d33ecb4b9bcc766d4"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "c6010608830ff1ed6272d03c5347cbe23b2cf36f2eeb06bfc2ac11c46ba3b0af"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.aniwaves",
+      "apk": {
+        "http_status": 200,
+        "sha256": "fe70980a778ba657520b0cd63323cecd7f74b284b2bbd377e1abdb0868b8c056"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "c6010608830ff1ed6272d03c5347cbe23b2cf36f2eeb06bfc2ac11c46ba3b0af"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.asiaflix",
+      "apk": {
+        "http_status": 200,
+        "sha256": "10c913bbf0529fab81b8e47c99500df9eeb55712c6f9f6a6d52238047716af11"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "c17086d7bbf151a273b357defeb082023938f95419e07449c1e4f57982721d2e"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.av1encodes",
+      "apk": {
+        "http_status": 200,
+        "sha256": "4b7f36d241b97619400b1abd1a9fcf0da82bf07b5b70838cc71ab09294b21a41"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "5b33783f276bf43fbd343be9dfecb342c4222468754003d9d9b347701ba14fd1"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.blzone",
+      "apk": {
+        "http_status": 200,
+        "sha256": "e098fd14963d27d2c07a0961f2e61f894e01fa91d19c7b1e5a55482cdcd08559"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "9eb25cfc33074390f58e8f593810570f5510356a17625747b43f01a545b6f9cc"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.donghuastream",
+      "apk": {
+        "http_status": 200,
+        "sha256": "73603ec786081a8d0742de3ae6753d0d0e457a57e55356ba84646a8bf6dedf82"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "d14b20d98ab833401165bd718f2d35f06295b3129f0b6f5f7014d619d20d9bb4"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.gotaku",
+      "apk": {
+        "http_status": 200,
+        "sha256": "77de199a8271330aee7319b50418ebeae353ffc2f1c8127f2931c8c4e6fa71fe"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "0009591f86838308b02fde3fd35b1351009b36fb1025e95f2d07fb672103f932"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.hahomoe",
+      "apk": {
+        "http_status": 200,
+        "sha256": "ad3c85bc596a9ed931fafd933935da29aa3af0fcb11685384d05b3cb913ff5de"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "6176ca4500cc71073da3f80d4eef7a533d6dfdc024fe05f1a917737d2dd690af"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.hanime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "865183c8312817845991f8828ddcc1df471b78a4ed5416592ba0812e113067c9"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "45cdd5ba6ad2f72517bd11d5bea3d9f8efd02b4d45d28c0497ea861e5be87dfc"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.hentaihaven",
+      "apk": {
+        "http_status": 200,
+        "sha256": "1feac1592475df89c7717e83e3762e4cf5cd9884df131569e70a39361120de7b"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "ab83d7da6636448f796806e3a4f051b2c3a12ad5192a4cf2d88cbe5d9c7a6c24"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.hentaimama",
+      "apk": {
+        "http_status": 200,
+        "sha256": "b1fab68bdc8ca7168a5aff58f8bbe4deaa84b11d1b11b5ac010b35da4a51a822"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "6bf63bc636e54ccd1d106692e433a8c0a707e34902f04fc578836b147795276f"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.hexawatch",
+      "apk": {
+        "http_status": 200,
+        "sha256": "274f2eca20dfafa3e9bb9df68294b5d64b1f657ff45fa3a860da4d11b2b2dbf9"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "d2267f5fa80a0a9c759bdddc810716a1601f315fc401900dba1b30ce1942c4fc"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.hstream",
+      "apk": {
+        "http_status": 200,
+        "sha256": "52d578c57a00e364d201c4bdd3310b5fe466a3934809f3d8d5308f8956f6fbae"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "cdca8d4a239101bd4dc53a28c5b5c2702c84711d05c46e53d38746e65e1ecb53"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.kayoanime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "5c54fee80607f1f989122c7cbb57cea38cb9379408a56f153fb7e680847fbd37"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "d2b1d1af8f095448a2f8a4e3efa09acefa4009ff1d8cd09cbb0eff303a9181ed"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.kickassanime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "e73deaa13f4e11bce49c6ef34835434768d49d87e3c456ba9257f5ab508fc60b"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "208c84660376053a495bc92cf85e2e614ed92cadcbf94c4eec6ebf1409441bbf"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.kimoitv",
+      "apk": {
+        "http_status": 200,
+        "sha256": "332ce55734fb613477b8b6b7aa190399792c675700a4af50cf19045e0a60f4e9"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "f1f44e454ebdc2c0f0dec86539675895b4a17f2934eef9fbaacdece39e1f3145"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.kisskh",
+      "apk": {
+        "http_status": 200,
+        "sha256": "2b203defb655210be6fd8a67c583b74030010334e3b5df3f5b9c06207ccb3c32"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "1eab5cc8a7a778d101305e7ab99db1adc787206d73a3ccd67225321d9e7617af"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.kotokai",
+      "apk": {
+        "http_status": 200,
+        "sha256": "923c7e4e6f1518cd202547777c2faac0f69952aa201c3a412828a5e921553af1"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "0bfa1e9d1b0056ed9ecef962826b9c68c5a3ee91cbcb082dd1cce74adbf603be"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.luciferdonghua",
+      "apk": {
+        "http_status": 200,
+        "sha256": "86b293bc1d0c3447e3086c96d8b22b4d9cdcd7de5893c630c337f14d7eaa96dc"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "e3bc30d454553f2edceee761f0d2e1b63ee217999d23c767155952908912ba93"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.mapple",
+      "apk": {
+        "http_status": 200,
+        "sha256": "b21488e5e110468827480df6b135be176b86d688a326025f2e9898a604a4bf2f"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "82fa82eca582ecb2e0341f281973b168273c0add9ff71d4bccc554f218a3ef5b"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.mkissa",
+      "apk": {
+        "http_status": 200,
+        "sha256": "1d2b78a20e026f7dce516ab8524cf7d0dc6572f3a23eea416e0bb99096e9e63a"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "8bc50404cf8ff84bfbc59209de8ea5a9ebca5a933b3d39ac6ea5e7263b2abc97"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.moviesmod",
+      "apk": {
+        "http_status": 200,
+        "sha256": "ecba45746a53226711b808804d0ea047fa06727366171dfcd1d61684a2d15e95"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "50debc449fba5291b9f524fa4906001d3346ed13d1de76f918be2f6994b181b1"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.myrunningman",
+      "apk": {
+        "http_status": 200,
+        "sha256": "eedcbfb324cd96d53d890c266e434456dd8ed513fc826f6eebc64210cf700c06"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "2dc7bdff71549b1b892e0788bd9b32b007836947c189d6eceaf93ca0d774702a"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.onetwothreeanime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "e36807f248d58a2df40dc5bbac819f97661e525dc6360ebedaaffb18fbde7e97"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "1dc40e0489e62e103855afe5e52a817965161a2a3ec86c19382ca2c3dd3df237"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.oppaistream",
+      "apk": {
+        "http_status": 200,
+        "sha256": "7b7d01650a7665633dfadf5c502ccb88a761a6a910a30d6aef0723e03dd5726d"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "dd747c6390e7a21134889b19719f2f049fb1d25dab944238bda90b58bd9eae18"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.pinoymoviepedia",
+      "apk": {
+        "http_status": 200,
+        "sha256": "d0dc63ac14d70834ed42c4f8d5ce026d5f24a765654c255113c3bc8515711b7f"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "bb8ba49793e5a2f7676a07a31b099ceab67fe05ca6a2d339c54752f3843fd9a4"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.reanime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "0f3be90757d57e4b6d1ed7f907b7d70ccbe0e9f3d21470452f94d32de15e4600"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "8ab435c9b8773bb1989610db4c137cec736c82ea4f35e3740e95ebdb1771b411"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.rule34video",
+      "apk": {
+        "http_status": 200,
+        "sha256": "ee654d45267bd8705e0d76f315855fe6396156d1fb3382789fe82f39b8e4a82e"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "0c7dc44dd8e71437dee9d17f0ed75d104b3dc74814fc23d785a7c9a357658894"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.senshi",
+      "apk": {
+        "http_status": 200,
+        "sha256": "3110c0f406dda649d6083377e029e664ae7c9f1fe722a365349088a8cc7f2c6a"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "3f42ad462156f67871e3b2abcb8cfffdcba03e430915f1ddf0641a177092dc1e"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.uhdmovies",
+      "apk": {
+        "http_status": 200,
+        "sha256": "ea817f58da14d01501bcab3459d8a7f4d2231d7d2b227425ab099e71e0496072"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "0466d4302017475bb28312e0cf5a3663c003d3e5bf5c452ceec5a46e1e54839c"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.uniquestream",
+      "apk": {
+        "http_status": 200,
+        "sha256": "7fb8bf2438f28aba07857147431abb0f717f29503bf7913a82f98f3fc9817468"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "18d5bc1e24d834a01c6b7bda46bafcb7d0d4e64d448f009d7ac4ffee1513902c"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.wcoanimedub",
+      "apk": {
+        "http_status": 200,
+        "sha256": "321d862781e0084bb697bccaac5dc146576f1321c1a753f99c42fba5030f9aed"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "f509bb7ec6960bced110bed6ae7ce5cca2e27972e1003ed63a906ca0cfcae565"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.wcoanimesub",
+      "apk": {
+        "http_status": 200,
+        "sha256": "84d9f7fe99854b2175a7c48577810c55f1fc00b970f90dd218e73f2a5db95ca3"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "f8e14806d7426201b480f1d1e90aa838d9994fc11583dcbb70abf30dfe9069b2"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.wcoforever",
+      "apk": {
+        "http_status": 200,
+        "sha256": "7e7e931dd1859cedfbb875fdb7f4a54ffc19ae6e235681f0d26cb9e4149c9920"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "442cddf35cdfe3f8c442b486ac2e72ee0114dfeb5c288146de62d69497674507"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.wcofun",
+      "apk": {
+        "http_status": 200,
+        "sha256": "a8f4085ba11565812e29bcb3d80c14c28d2d27647c595757588ae2e4e850167e"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "66f0db7b1739c9aa9f6bea6d1bebc58708e48a25163f5d6203b7d83f72e43e98"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.wcostream",
+      "apk": {
+        "http_status": 200,
+        "sha256": "9e5a3a63c73b083938749f257fe8f5159bad8811b3c07a02bfdebfaa65323c79"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "619ba7021bd24e48b7704770c9612ccefb516ffd562e9364cabcd1196018226c"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.wcotv",
+      "apk": {
+        "http_status": 200,
+        "sha256": "a5e000a7ad2d63a1c343618268d948e6a1a9e2b0a66a18df58df5351a3012e63"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "a62e950ca40a399381054d9af87ae5b9ec5dae8f99dfd1d4388faa13735acb2b"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.en.xanime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "2b4e02b60a576b6a20750b6acb7e9d3ecef9f7f255337883836c7ab72f07a112"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "b2ea3a9ae2d0911e3dd9c93d49305460cc601784e3e636167d7e5f04f873f422"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.animeav1",
+      "apk": {
+        "http_status": 200,
+        "sha256": "d5c54f4ca61e3eb084d712cf257f5f68566733954c67de95b11fe345bf0a0345"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "55876dea66a8b6e8944d046d5473c7ddb814efbcecd5299535c1ef6e0a417574"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.animebum",
+      "apk": {
+        "http_status": 200,
+        "sha256": "3bb83c81613795626ef6358364c9353bdc84f6ba5c23f41040de59b610da62b8"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "b7c5604108b9072d1063a26fd85f423236d4ace0d5aeac4ec910c6e7945bfc46"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.animeflv",
+      "apk": {
+        "http_status": 200,
+        "sha256": "6d5915ab89d605a362e25e78507a696a8fd38b14c18f6045e8c758d5170b8e2b"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "154bd549853011e670dd5b58993413ed55e240a999b3469a87425d2c691b57ff"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.animeid",
+      "apk": {
+        "http_status": 200,
+        "sha256": "ba29c68eb63823934e2d55526279922b2f1fc492b83690ca7729addb430d7c11"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "139e057da39e4c67e458fd73e318cfd90f85d1f7a1094700bbdb5a1e7f86a208"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.animejl",
+      "apk": {
+        "http_status": 200,
+        "sha256": "f7945f38b12c72d839fbe4a352a39031e03675789215468f2600cc8751c107ea"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "d2d69f06e070808b872269edbd9b436bfedb0d6738a73b68982e3e3f963ed98b"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.animelatinohd",
+      "apk": {
+        "http_status": 200,
+        "sha256": "c7aabdfb3f2a6aedf30a861ab13dc7a8e408fee21d9289621c78873611c2ee7b"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "f7d5dd3270fceaf65a14af3df7acff964e810e3227d809b8e75d16cc3a078a2d"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.animemovil",
+      "apk": {
+        "http_status": 200,
+        "sha256": "c470cd4af8c6ed97588fed636ca37ff3f2270858fc51cee8fe75948c98b5f78d"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "aaa5868f4a3099f095e7aaaae0fdda9021060f2c4b93330ba06ff6c0acdfa261"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.animenix",
+      "apk": {
+        "http_status": 200,
+        "sha256": "4ea944e2e5a2418f81a4df33735ba6fdac9ed89aaccaff90b2944da820be1508"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "9d97b1ef7affbda3c62f9ea176931c907c6e4af0a702698c37ff3814e90567e3"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.animeonlineninja",
+      "apk": {
+        "http_status": 200,
+        "sha256": "f9435bc26f5f4ec06e1be1d7b1ebf1af34c6bd1dea7a723273837a2969418d69"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "020446f9f54b48fb789b5d1ca9e6ecc4fa87af3166c7d522d2793b3242b88cc1"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.animeytes",
+      "apk": {
+        "http_status": 200,
+        "sha256": "b6c85dd79ce4be64bd9a91a7e297bf870d8b96b2a08199d1aa1b7cd0b4e8b473"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "6b0f8cd87dbeffff6a60e0800641435ee15dc29e81a8130e22ec66b616259dcd"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.asialiveaction",
+      "apk": {
+        "http_status": 200,
+        "sha256": "dafd5846547944227bb177edde85e721843225f7b2f95219e55115f1e31d2c39"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "937c34d9a3c794e796c6643801a863f5ee56f6b370c4fb3fe0982a6d04f01a8f"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.azanimex",
+      "apk": {
+        "http_status": 200,
+        "sha256": "e475653478bcf82155ada5e4913a9dbe871ca06058dbccea6b341310d2a924f1"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "fdda537a2e68d57a61b6765db345fc496b07e675189a13678b629e0366d1f941"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.beatzanime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "ef4ed181f296155d1ec674f765f3541c83df5a5868fa02da84c902a674c54cfb"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "cdef198343eca924b4562ba40c5e231e053f279e5f59e75c5ec7b665fb917680"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.cine24h",
+      "apk": {
+        "http_status": 200,
+        "sha256": "e44d0ab55de2596782a3b4b8ef590fcfda265fcf83b556dc4124f9b78303198f"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "f1b322c23c11cf68acbe852158dbb422832d9388b0ce640b1fb82d009131ed36"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.cinecalidad",
+      "apk": {
+        "http_status": 200,
+        "sha256": "83310126ac92e7002207294a3f72d13aa414ef73afecfb85d2a9650053bb67cd"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "e50654b3b2ef3f87d167917ec7f4dcfa52ae0af27e8087fc821c1801a258a63a"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.cineplus123",
+      "apk": {
+        "http_status": 200,
+        "sha256": "aa4df959f007e02d2ce1965991cd95db1fe0b31994625d45da6fe01e5ca2168e"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "74a5d7c22b67d36c4d3bb36c9204c8f052a04975e808a782b2fd1475af6e7f67"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.cuevana",
+      "apk": {
+        "http_status": 200,
+        "sha256": "9780f2c24f51807b1663a12affd3585a4c9e6464ce07090a9e57c0158a8e01a6"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "f7168a45c4dedc7647ef05b3a7838d20489f39e433964c8073690d58f3b9d0b5"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.detodopeliculas",
+      "apk": {
+        "http_status": 200,
+        "sha256": "fad62812d846418ae3cf9b13b747113c15e8e7f118286a34da6cba3a50479a8f"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "ebb244ca98dc871cb59c47b9662fae9423d0d0e8b6143ad37f7728a07d4b2a76"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.doramasflix",
+      "apk": {
+        "http_status": 200,
+        "sha256": "668101d84cdd42c2a9943f987e7f4495d3e20a3f29ada62fdf942d055ea54227"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "296a960fa917134343eecae57162f6aab5703d7efe87d5b1156440d339383e97"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.doramasyt",
+      "apk": {
+        "http_status": 200,
+        "sha256": "8002f7e16afa0872928168b02111634fc0fde67d391a1fbae5e8423bf58d1bdb"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "ef4989a66ea81bfbf667ee9900960375b58d1f93346b63d4580a7c31fa4bae1c"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.ennovelas",
+      "apk": {
+        "http_status": 200,
+        "sha256": "84cb5f9bb7a67b03548ee7a52fa9f9ca3a0562e3fa32a5d6fde4e9b7adbb4fc0"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "28ca684fb234c8b6199007915cca4ff3403207514d0076c878f09ac73944c16f"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.estrenosdoramas",
+      "apk": {
+        "http_status": 200,
+        "sha256": "0f3a9c87247f37db4a8b4169fc10d164ee57cbc12b0ca1cb1fc471d92283ac17"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "661c837b13fc74ec4a71885b999ac1bc70b705fed08b6446f97d7ca78ed3f8d0"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.fanpelis",
+      "apk": {
+        "http_status": 200,
+        "sha256": "12cbd60fb3ad313c4eb89266389fde91b05c4473a3c26a7b70c4ae014f216c48"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "3ea1784057cfd356cdc685ac7dcef7924d28a5f9059ffa86893c037440d8b4e6"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.flixlatam",
+      "apk": {
+        "http_status": 200,
+        "sha256": "81ce16e4fb197aa7670dfa0914495e1c1a364398cefb9a3b77e4bf19176888e7"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "3e29cb11eda85d94c0ebae063c9519be139eca0b5f46378169d4b88f6d1ddc5f"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.gnula",
+      "apk": {
+        "http_status": 200,
+        "sha256": "0d8429439540b874a57bfcbad54ee3bb12f8d065f0c762d63f7a67982d456219"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "a2b8fdf78e9303c3d222ee46e5755f9ed52bbcf0e97f9df73d46f42137b2e75e"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.hackstore",
+      "apk": {
+        "http_status": 200,
+        "sha256": "f59b340f8e5bd843b645775b875e21f21d691c6f488c2de7d5d7dd81c71c8634"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "c46ae3d5e2df0d3bab8a3317836c30bdee65c59b0a3a05c1a74ef3114c2016f3"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.hentaijk",
+      "apk": {
+        "http_status": 200,
+        "sha256": "b42b493682b65ad713573ae1af5d966fe78f984320a8f8195083b930d970ec7d"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "f56ef564fe212fa787a33cb4c5c2eee1199f55ba5b6f46bc2eff562910735472"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.hentaila",
+      "apk": {
+        "http_status": 200,
+        "sha256": "b3e969747ac70684ce151bc770d1e5b676deb4b3d6070255f5e9daae73810d60"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "5a982edf71b595b7623dd5eea5ddce1f8c9240f01141d8ba73bf1395840c78eb"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.hentaitk",
+      "apk": {
+        "http_status": 200,
+        "sha256": "4301460fefd487f835fe81e5f4af321a3a97281cb58c542b9f4b1dab04ba095f"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "9fd507d97c3a0ddfafda40271944ce46d36ada14f80880d18c037c0c3181b6ba"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.homecine",
+      "apk": {
+        "http_status": 200,
+        "sha256": "2d7bcb7cd7baa3d72089eacab2a6373eacb3a5d82b553effc9f57beefa8f0deb"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "ff36bc28c8c35c75871bcad955e7ce64a4b5e72f2b3ad0149d5e5844798b0ed0"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.jkanime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "376a33ae2aad3b305ea580f23d523e23cb7162f5ef5e87d7a75c31e9557b9d9c"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "d682103d704fdcae17d9b6bef87fcee4532db0ea7e7971683b48e769131b6ab2"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.jkhentai",
+      "apk": {
+        "http_status": 200,
+        "sha256": "61586eeb9ba58b7a2aed2c83a79386fb67d124b1ababaf9f8062f7426c2b15e9"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "8021050756f6fc59638c0110e34ffbda2506d0bbd04ff97de47f7a92affa5365"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.katanime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "14ba5a2d663cef5772a07056ce5d99a7d1dbc464d4b2148b68758aa4712278a9"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "7476e0b7244db5d51364bfe55792da1e29084fe911f05a0048b183f43ded819d"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.lacartoons",
+      "apk": {
+        "http_status": 200,
+        "sha256": "4ab7145af4e6f4efaea3b02d17df20b0c31db3c90a195101282892772e1f88dd"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "b67708930271a84372daa4a30a0ee6fd88c7a998fd24615d65ebde3f1ae15483"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.lamovie",
+      "apk": {
+        "http_status": 200,
+        "sha256": "c290d54291115b968217fdb149e2faa793a98cb2f8604c05584057baa8bfa7da"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "29a9bbce6dcb1bbd8df104444a8b96ff271b84912cc908f8d3dd32dd028fb796"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.latanime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "7bcad80939a39a14cff2a0b8838375d992a9a1be648338d21baefec4466ae8fb"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "5a5c7a9c3d1181f8c18cfafe5f268aa0096afc1472f816375cb60c2adc37aa06"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.legionanime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "364bb461b931b596a2d9f977bdd111096d11137e24b45fcb289269587eb0ba67"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "6ab14be62ba330ac7d77f7652addcfd543722fcef64f7beb0e560a101985c58b"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.locopelis",
+      "apk": {
+        "http_status": 200,
+        "sha256": "8bd3138b7ff5723ee6c7a489d82a2341ccd66970a48921837f33a17d938d45e2"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "d5648b42f8fddb33870bd28ab8019238ce5ea0c86d27c615deb466e0c021cbb0"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.metroseries",
+      "apk": {
+        "http_status": 200,
+        "sha256": "e0553082d6849914eab9833c8e8c8ba9e1f19974e883908aa32ccc0139a6ac51"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "c80007ccd4725b03f30a81985181e76b98c9e357c1ad0b18f0a034c91ba29c86"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.mhdflix",
+      "apk": {
+        "http_status": 200,
+        "sha256": "45343288111769536c0df20e733e68fab4abceab3ffd53d85be00a7b08f431eb"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "c41938e04530fbe284750d19eecd14495df912bde9b96f0d1f4f9205b11dbdf3"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.monoschinos",
+      "apk": {
+        "http_status": 200,
+        "sha256": "e8fd450ebe4427e8754dcf3a78cd192e447fd305dc494b0e446420e3ccb37ca7"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "0def591750924dff42c796f56222687e5759edb0aec160d9cb9b610b7707c1e8"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.mundodonghua",
+      "apk": {
+        "http_status": 200,
+        "sha256": "34fb5b4ad549beff9523d77c1f3e1a2c042e0b9d69a6ad7b7c035f3cbb0ec6ab"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "94bb474dcc42c8d52f27c967abba687cb9facdcee21aeed6f2d7098213f88c44"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.pandrama",
+      "apk": {
+        "http_status": 200,
+        "sha256": "5afdd480f48c6a73cf60f9da0db8c9203aea4805df4985d5d66437cbd668e272"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "367e03a3da54f8a3f978eb9ccd440dfc979c7cc2f4779097d73bc286b1af5997"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.pelisforte",
+      "apk": {
+        "http_status": 200,
+        "sha256": "63590b3062ceb68cff913f2b32cc64e3577f38dcd912f97f39213b8c3c712fa7"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "0fb80c5b384ad6d484c09d1c2ccf1ce1864bec01257c8a8f18c640f3c17c220e"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.pelisplushd",
+      "apk": {
+        "http_status": 200,
+        "sha256": "5b35f98ff7577e9bdd789c22752939898bac7ea31ab2813111688ce07ec621b9"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "36b7850e3bef8564a17d950a15c82b89f08beea9e204c9569a729a882f6e845d"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.pelisplusph",
+      "apk": {
+        "http_status": 200,
+        "sha256": "ad50d8e4fc0b6fb40dadd3797587ccdeb7cd929438b6615b6917622bef346c0f"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "36b7850e3bef8564a17d950a15c82b89f08beea9e204c9569a729a882f6e845d"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.pelisplusto",
+      "apk": {
+        "http_status": 200,
+        "sha256": "57fe530e1671348281bf33039b900dfe8ad483d55996bc1119f9883786b60b4b"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "36b7850e3bef8564a17d950a15c82b89f08beea9e204c9569a729a882f6e845d"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.samatodenvideos",
+      "apk": {
+        "http_status": 200,
+        "sha256": "779c93d892df92d00c7eb1e7418db108c7f90c7dc5d9574c224d378991f646e4"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "7e7e3e27c7ff90c87b6409651794487f8d7589c7179a59a9dfc047cb00187cba"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.serieskao",
+      "apk": {
+        "http_status": 200,
+        "sha256": "663ec6c2836d3bfaf0c6479c88fd96383fa041ca55f21c9265e9806857c5dff8"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "67d8ded8e58871c555268ff8c075153846d3082df0b8eb20bbaf280d0f737cd1"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.sololatino",
+      "apk": {
+        "http_status": 200,
+        "sha256": "d8d9cc5800ca1e85a3f20bfce0bea7277430391f50ca7631871cdce6fa645ce1"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "2b6802e74254fc2cd76b1b2c2e939d67a5824752674201152b06b0c0ea2c6e45"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.tioanimeh",
+      "apk": {
+        "http_status": 200,
+        "sha256": "73a2bb9404865bc56863b0c08338b87c8a928aff0e36f43998642fe7d10082ec"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "acb7c4aef9db92b01aa5854ac875a8ce4683632b56cef096513d42df66b57b28"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.tiodonghua",
+      "apk": {
+        "http_status": 200,
+        "sha256": "ea2d66f5453133c2b017b7dacc7f710913d8d9328efb9a23d85eb14469c94ad3"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "dc199432ec5b875d934538a2a0588de10d79891499cbe2980229f22e8a68b9f1"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.veohentai",
+      "apk": {
+        "http_status": 200,
+        "sha256": "8d42eada5c4f8f1ee27147e92c83532a8b83d01eafde91f9844e3f6036c334dd"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "d1535417fdd9dcdf40821ac9b98e2d2a0c1ba2f5b52023babaed20ad2eafa349"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.veranime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "8ce55652a47b57ccc50fb11ef83e4cdc5b7c01e30d14605f4b1e549b603d993b"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "245bfe990f202a360f245c3d74066dfb376b606e98b331f6f8580d0a3392d767"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.veranimes",
+      "apk": {
+        "http_status": 200,
+        "sha256": "4c8a5bbda31eeb7c8adf0e09418691d822e5b10ea6421bcb7f2462ad7472222c"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "a22b442c4aeb18e2a60fb90ffbe12454c121a5bbb9933adb693f1b203bbf181c"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.verpelistop",
+      "apk": {
+        "http_status": 200,
+        "sha256": "20efecd4aa1b82113ce7da229b4dfad70c8bf30655986931874bed83f8bea14c"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "0b01472f551201704eb00bad4b1ca2b4eaf8f7dfe63150465dfa275b930f114f"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.verseriesonline",
+      "apk": {
+        "http_status": 200,
+        "sha256": "a9cfba85fe355a9fd8153cb8a7c84d769d2fa44190060a7a07694a6923371ef3"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "2412de5aff1345f3cffdd942ef69dc59595750e680ae401eff71c9cdff47689f"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.zeroanime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "d5ec2c1ae9c8b8f6b2fece66e7cc38c11ccaf5a38fa2f4c3ac6bc8cd4cd1c231"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "47cd27008a5f620b795e8782c9b5bd725d5111c13308c660f2b75ed3540651f9"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.es.zonaleros",
+      "apk": {
+        "http_status": 200,
+        "sha256": "f5d27d7264dc62751c90d42433d7711b2dbd5492fb2c01efc59d33687448e571"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "3b145725de1fc71304e0caeb052feefc6e5a744e4200188a5de763910225ae0d"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.fr.animesama",
+      "apk": {
+        "http_status": 200,
+        "sha256": "703acf89f2f1a7783a5d522c408612f55333f8b3f7f205cbef463ff07f8f2c05"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "102b97479e86374307b2e121395bb1e5405901cf231436b24d8a9fc2cea071a6"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.fr.animevostfr",
+      "apk": {
+        "http_status": 200,
+        "sha256": "3c9d27438a78705ac9127511e8dada17406c9d018010c775166fecab18dc0423"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "520acecb6a1347d6b394e4aa012759d0f5577a9019be9536fe8df74554fa65f7"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.fr.anisama",
+      "apk": {
+        "http_status": 200,
+        "sha256": "057208a32d58fe585b9c80a6a87ac1ce1b6804dddb6c4ef8f77000757063ea27"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "4717a1719649933c7486b2b11cf9d213010a693ed5f6a5aed9253346d59f4766"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.fr.empirestreaming",
+      "apk": {
+        "http_status": 200,
+        "sha256": "a43046230668bb3f6e8ecddbaca7c93f3a4297d8660992b881af2c8f97baeb27"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "726e96d1c686f8f5eb5d6adcb0846f61c8f56123d0656e3840c26dc5a362f3f1"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.fr.franime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "e6acc222710228bf314cd066cb63324a6c35444b3ead13c44f84203bacef5603"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "cb31ee61db8621418dc44cbf233283f434927b845a4a97cb1b61a9c4394c027c"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.fr.frenchanime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "42885ca88f1f4ea7fce79dbc4b7fdde800403e8ac4dc6614dc8f96fcd2ff0e35"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "ab2152e02f9a6b3eabb2e7d65c763e6979bfc7dcbc64c573253f8076caf122ba"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.fr.hds",
+      "apk": {
+        "http_status": 200,
+        "sha256": "9cbe0700a3672d4f8ec39883353b19a8cc1bcbafa91939fbc4c6debb3aae1b6a"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "27001745d618b1d98388bb74b034ad1e49c52715d28e229cee43c49712c702c8"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.fr.jetanime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "cad03bbc83a3d762edb051c6e00eae6173b561a0baf08a48c0278be109f32bfa"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "b666b667fe4400e6723e739ce8e87c88dd38adab6e8cf3ec4a7cd870888343ad"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.fr.mykdrama",
+      "apk": {
+        "http_status": 200,
+        "sha256": "e63bbfe8d0f747372f81dd4a02dd8f8063fb164365c5ad843879950ad4f0801d"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "be73b55176f954ed1800de2504fb819c4d1c44218c2db135c48d5685db85b176"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.fr.otakufr",
+      "apk": {
+        "http_status": 200,
+        "sha256": "213a0c274a1d838795583f8459b05af9eb4ab4fa713988d9289db2809066966e"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "21751e8e2e376c94331fcda716e34b14432b7eef3baa66cadc77d89b1abdecab"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.fr.voiranime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "6599c074dea613cd1e705f256cc2840b8b4cc2ba5a0b1465c50b29a410baa3f2"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "9723b5314df34e2320be9d7d2c86727d4dce74bfbec68467ce213a651d740d1e"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.fr.voircartoon",
+      "apk": {
+        "http_status": 200,
+        "sha256": "3de32714f72d465b40b0eea0e1238dd6ce7b6e6a3855e61fe752b5ce8c49a766"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "9dbd493d9d2a7f9a9889cec08eb01a4281a7561e409101bb2e2fe874646e4dcf"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.fr.vostfree",
+      "apk": {
+        "http_status": 200,
+        "sha256": "ae34a44755a39fe5d697868ccc86c90c73b0b427cfd6f36bdaa0d00d849a23b0"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "7d09d08d09d68159ee41b967c89f972805a22fc7db1f64658ef76ed2e8325427"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.fr.wiflix",
+      "apk": {
+        "http_status": 200,
+        "sha256": "04ce31e316d00c0827d429282a7fc678dd87db55f60c2f2556d0e2992625a818"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "9083b71b9175a33368e390503e5f4781d06a52aea2c8d6fa493870bb86bbdd54"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.hi.yomovies",
+      "apk": {
+        "http_status": 200,
+        "sha256": "5fdf675294754b1ca3e4d458120b898050c14e1018e68c8dbc81eae8ce226750"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "bef89c434dd06d079d1fc50763ff3555431405cd8f31d120b1d2c6825b2d664c"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.id.animeindo",
+      "apk": {
+        "http_status": 200,
+        "sha256": "e7d7b723cbfab1f3739fd00267e97655b6364ecf62302bff09f7e9936221719f"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "c8c6bb77b2fa9d47f57b096425f14ff78fffa0afb2460d8dbfcb849623a4ad73"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.id.kuramanime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "6cc1be6c6426abf89d1ff3f77c868e285665b3c09ad1e71b97b4af41032df28d"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "51a8f1eb95e0334a3c3b8a0e009f8c28c8a61cec21cf17c4180442c75ed6266c"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.id.kuronime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "cf4ff1fdf232230d6280428eccd3d7954907605be66765d1d7d08f53e3e3f2ce"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "db35f06efa2ed6303cf0180034a7bbb178ba98c00156e37fdda3b3a2dfc58002"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.id.minioppai",
+      "apk": {
+        "http_status": 200,
+        "sha256": "a086f5dd4715a7902c259a7b24dcd143be650a3874ffeedcff0c404732847aed"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "11fd2d368388be9cb6303d672ca9727b6a33c93b62cc8d3095a2cce5a73cc363"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.id.neonime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "0a417194e77c12e283eff8675f87a20d81879106de53ae0f2bae040b8c19ade3"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "27b9fd98bdd14d66fc3d06d37a57a0cef42a4550d000bb01a6bea0f81e9f769f"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.id.nimegami",
+      "apk": {
+        "http_status": 200,
+        "sha256": "461066c7bec9e339195b28a9fb785385d72c0dc07dfefe386233b0085995f133"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "5f85f9609b15ba7ffd146eee3541629a76d4b30f4eb8dec51ab14a3468139086"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.id.oploverz",
+      "apk": {
+        "http_status": 200,
+        "sha256": "e8a4eee06fb05cf8f5bea7197933c23378ff9ed2de4b4cad25ebf6bdb1b60510"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "36eaba78c497c83cc8fe99687eafed7b83cc6376b2a310856519d398f882ef45"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.id.otakudesu",
+      "apk": {
+        "http_status": 200,
+        "sha256": "639e26884d408a5c188076041934c5b7d632d0fd2b34518c18d90e6d04024025"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "a54bcce70ce06c44892d56dd3a74a94ce2f5437a46337da7c2196a7a2629cee9"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.id.samehadaku",
+      "apk": {
+        "http_status": 200,
+        "sha256": "b7826edf6586ec0764d2a095b6dc7872cbc11e86631b94c15c16b77414fccf40"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "83fb89e2b8046a631e38e74149577273efa481995dc30395bb38b0fb3ee9e7c3"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.it.animesaturn",
+      "apk": {
+        "http_status": 200,
+        "sha256": "6215ccdad6d8ada7bf5f57d5ab0cc246694fa04757800e87f18c3a045fb41cce"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "1b703e69f17ba0d610d7a29dded334d1651c24fee78c1cd3d90972b493d2df0d"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.it.animeunity",
+      "apk": {
+        "http_status": 200,
+        "sha256": "eaa533e51b16bcd9c2ca0b83e95297aaecdd665f0d460bd76e7081e0ad53b254"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "f8ff388225bfa4bd642da5d4960836423c679e71a605d979acb2f06219933f6b"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.it.animeworld",
+      "apk": {
+        "http_status": 200,
+        "sha256": "8f0ae902957453e2312886bdd0e193762823c5cdea30d32d6948b9c014ac57d4"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "6160b6a8f4040c878ce961c882e7d0d224af288dc1354af21bfed87a13b3845b"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.it.aniplay",
+      "apk": {
+        "http_status": 200,
+        "sha256": "dbd03cfc3a88f8158afebb7a5eac0324bef2e6dfb710c7bed94d703ec0b64a8c"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "e24bdbd0d7553acccfedccd8688d19fc8a249a16d11d2bb3bdf2bec1084818a8"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.it.hentaisaturn",
+      "apk": {
+        "http_status": 200,
+        "sha256": "3a3b74044b0753b94ab84aa30b09a1fd4eac467ce0c40ffcb145cb6a6b7f1626"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "da5066cf02599149b489940ce8899801e01507e533f3da5694a2ba99e490a8f7"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.it.toonitalia",
+      "apk": {
+        "http_status": 200,
+        "sha256": "7bb3a649e17b0197bee67ce8c74f5a76d563637f523ab7176b1ad1a583d868ba"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "579486314a3eb8a0f59c4ac42de279fe454636f15f9767c97556995f579d8fac"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.it.vvvvid",
+      "apk": {
+        "http_status": 200,
+        "sha256": "37f15d64d11e4b5f51b602c6dc28348f2896c0b1294ce99e0c1ea541f6816520"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "a8b7412adcd10fdfab063b52a8f8f5c2fc5893e437438a0732b78ef8ae100c1b"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.ko.aniweek",
+      "apk": {
+        "http_status": 200,
+        "sha256": "3ba006be1876fad052e7c0dd576610fc25c83bb6be444fc2e48e3d86f178c0b0"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "4905ac9901debfc1cb94000683c0208409d2e9196e0e4ff510c140cf41b8717f"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pl.desuonline",
+      "apk": {
+        "http_status": 200,
+        "sha256": "3758463e4a37c29dc701e8b534dd21fb8be0245f2ec91b2b88aa0e8f0fe0553d"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "1ba0e4ae16d9550f6038186db4b7a2935db1beceac887c5ab4997bd4fefa66f4"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pl.docchi",
+      "apk": {
+        "http_status": 200,
+        "sha256": "8b8c0d91b7247240993f42c490cd30ba413870caae8b4940076612de46b77fb4"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "d33e3c1c8fe0d0f358878aa094da4207016d5a095a9a743a2bec03dd2cbc9a58"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pl.ogladajanime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "add7957cf19530f006670d7cae87464c0214f1ecb797ded33dfa3b8d7781d230"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "6276013635600468ddeadcfa0cc8e95296a54bd0e55acb8777f4e6338ff738dd"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.animefire",
+      "apk": {
+        "http_status": 200,
+        "sha256": "cadb1a5d7f443f65950931afab319cf3e337721047224a0fd76258abb784b82c"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "6051715ff1fd8398ef75ff284f6eb8cb74be858c5073389a4c9bbfdb9972950b"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.animeito",
+      "apk": {
+        "http_status": 200,
+        "sha256": "0e794c8a33a26b21d2057186a5c18bfb34885de36f0d424ba5988addf875813d"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "8ce261fc68bcacf27879e05c4528b430b735748d43838723d66c8837b600beca"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.animeplay",
+      "apk": {
+        "http_status": 200,
+        "sha256": "65ae752e60026cadd2b83aab9e5abf515ddb50d126e37a9e4c72e4fbb139b40c"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "ede00ee168b14f5e5aa14481b6dc395abbb5310d624fe001b1ea596c0a4c2a01"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.animeplayer",
+      "apk": {
+        "http_status": 200,
+        "sha256": "7d4ff763b60b66bf7b5c8ab02eb8c0ecc792ecd4a969704c972896b6b1ef33b6"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "2461fc2a2bcb452093ee97f55906584cb12b6742db9a24fb8573f30a1074bf84"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.animeq",
+      "apk": {
+        "http_status": 200,
+        "sha256": "5c5e9bc5dd8a652f1c40f0217675c46a8249a96134da7604cd5842cf19696dfb"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "923641d5741f2fd323b8bcd8b66bd561496c4311b5412e329fbb8f8f345f1d10"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.animesdigital",
+      "apk": {
+        "http_status": 200,
+        "sha256": "eb501beb87ea5f3f72dd317b1fd0a3aabf5b6fa5e196fc9ce216dce88f1508b6"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "5202c9cc762d487a65fe1cf53a5c0555e7e1b1d042ed29079a91f0718f96abe3"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.animesdrive",
+      "apk": {
+        "http_status": 200,
+        "sha256": "005bfde86b5b2dbd502f030e1c995395e36da91a4df5097389ce01074a75d61d"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "4f87840ff9c00a80e3004317cf7e60eb79c4e780300fdd3be1ca5e3d9d7c2c96"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.animesgratis",
+      "apk": {
+        "http_status": 200,
+        "sha256": "4768d46f4dc9065bb6114cf82cbbfb3a482099eda0b075ccfbc5b6cb926d2be6"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "8145da0f2727d8137936f99bc8775746b9cfb761b47d8c34fd9aa419426037c1"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.animesonlinecc",
+      "apk": {
+        "http_status": 200,
+        "sha256": "8802e672a82bfd9a6f663752f39fa5d54850d1bd965cdace9bfd51d8df9e9c2a"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "fc0e6e4e51cce796228295ba162f6c482452378721c16c18ec728a4dddca1273"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.animesonlinecloud",
+      "apk": {
+        "http_status": 200,
+        "sha256": "568f6703f209837f39e81cb99288eaaf38b76b3296153b1196098679df2b09d3"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "1ce8cf15c70955bd87d1f0eef3a4d194e282dd9da155c343ac4e2e4081bd07a4"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.anitube",
+      "apk": {
+        "http_status": 200,
+        "sha256": "19718beb3c68e502d34fd55f3a7c6ea1ce807868d74d4e7f3210bd6d4b6063ca"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "fe1633d501e266fbce0ae9b00875fa6c51c53b1eea520c69636a3e65835a18c5"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.betteranimeio",
+      "apk": {
+        "http_status": 200,
+        "sha256": "9ab3370d61e0692fe23a1b4e9d00c4a50b924e2d92da8623c5e331b2d6702ba7"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "3d850fbea4107b83fcf6919d86f66a99b0136571da949f7d2fdcbbe7e8e2b8f0"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.darkmahou",
+      "apk": {
+        "http_status": 200,
+        "sha256": "b56df58d18eb19ccc69cb6c589a715250b038a8caba6b0fc9859670e4b4e4382"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "ad3765e6a181fb70378a3e4619f99bd2fb51edf82fcc1be17150532f6e8fca71"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.dattebayobr",
+      "apk": {
+        "http_status": 200,
+        "sha256": "0cfd06d05e2ae9b276c080097c9a012a7ca33fd97953329eb9aec1c375b0ac0a"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "77e41fd2741a5dbb5cd732f74a257df7bd7a0df6ed327265a22657101bf6b7cf"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.donghuanosekai",
+      "apk": {
+        "http_status": 200,
+        "sha256": "1c022e089c5c37977c660654bd807a6c3c36231ed4d0bf56db1105691b8b2568"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "fb14f8ecb75cc9c751d7cbe7aabbd6464b9cabc2e65d34da93b49a8767c5b09d"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.doramogo",
+      "apk": {
+        "http_status": 200,
+        "sha256": "20cb6dfc45cd16d74672f09abee9153282f59782f19eea0beb0a1253aed52cd6"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "82e29f888069fef6e96faa368280bc5a94af38ed9dff5ece1db201295988a9a8"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.funanimetv",
+      "apk": {
+        "http_status": 200,
+        "sha256": "5f987092be9fe8deea3ccd6684aa59e04cd78f08b97f3508f0bfa6dfa0f3ecde"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "a2d7f6aeb802550a326d2f8f337aec5957da0efee26c313af60617f0bdc00906"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.goyabu",
+      "apk": {
+        "http_status": 200,
+        "sha256": "f0f38fa0f7e324cbeb49f093fec31238b626bfb2484b03099b17e11c2fb6145e"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "c9aaebdcb79ad7ad3769cd35df222a34af816a76dfab1e0f21ab20c5f494e476"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.meusanimes",
+      "apk": {
+        "http_status": 200,
+        "sha256": "62c53b3dec86530aae38b29c55dccb45f0fa3a992297125a61b2b771cea4c56a"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "020f35a148bfe0fc4885c93e1c1272d4ef16645cacbce43d74b63eaed7084548"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.muitohentai",
+      "apk": {
+        "http_status": 200,
+        "sha256": "640cd22823ab13e949288c581736131e8a6218508e84374791f8b2f7f73f0fc3"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "7a76681967b5df1ec3d7f5d57a23a6c3cf7d9766d1a60a63beb0a48299180be1"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.pifansubs",
+      "apk": {
+        "http_status": 200,
+        "sha256": "e50b323a24c25bcdd21c2b3249ef567bb99a15a4e43c6b77f166909de4377af1"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "bec7cfc136397952809e5b74ae79da1454f194bb4e33b813940b26b6a7633259"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.smartanimes",
+      "apk": {
+        "http_status": 200,
+        "sha256": "b19aa5e8cc658ab324548b718ce6c35458b41dd1586bb76cfc1a561fd41d406e"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "335e9c1f44e85256d6b77a843d03dca7bc71eabbcefac6bc6aec34428744ff39"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.sushianimes",
+      "apk": {
+        "http_status": 200,
+        "sha256": "ccb7a6c0865c45539e35d01e01928e6688559f12db487e27d0d42d6f1bc7b173"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "c6c1b3c86a0ba49cdbe59d1802bce7ad2c770729f05268d3c710200c0edeafb7"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.ru.animego",
+      "apk": {
+        "http_status": 200,
+        "sha256": "5e01baf9e905c8b8e8e807ca0cf1950533392a696dbf0ee153cf7a702b662022"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "aef45b8415ca2f747fd94dc7f22abeec17d247ca168d1c149f50b108cffb99ae"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.ru.animelib",
+      "apk": {
+        "http_status": 200,
+        "sha256": "3f2fb30bf94aa0d0c3eddc4afd8c815fbd13c24f1942abe8adf6fa987aeeb083"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "23b526703e6c0c281c0ad4b913a46abc3ffafefbb3655a70b75cc1387943d0b1"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.ru.animevost",
+      "apk": {
+        "http_status": 200,
+        "sha256": "b54d2b6e271a2a7b7810b53a236babed92df3ef8ce484257966e9c0cc617ccd1"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "903ddbb47df78cc75c319d594415d98bb795a9d28ad8fa7a6383d8a421a8cf55"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.ru.jutsu",
+      "apk": {
+        "http_status": 200,
+        "sha256": "fb15444d650339ea9662961dbc16a305d56ca693cb6c75fcaf6a6e2160df1018"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "c05f58b3eb6b781e2b8792a62e4448b6a616e53118d62c7dc876255df3160f0d"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.ru.rezka",
+      "apk": {
+        "http_status": 200,
+        "sha256": "b6f049ba0300d25a44b13bb0a09c25ed47bd6143848f4a2f716c67713e56d103"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "4715c5127770aeec2445ac1f5f409f5b042b7f901f1152dd3373b8cecbef62e3"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.ru.yummyanime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "062056fcc6f02935a06f9582667d2c4310e6b77470e53bd0a85e66b2e3080c8d"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "05f0afc3812b32f03e9617ad3e00594d1308c0467210b915bf362eb525c9d756"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.sr.animebalkan",
+      "apk": {
+        "http_status": 200,
+        "sha256": "614a7311c0b8a451802b686ac738db23b19a41c35adaec7ba2b9803fb5c88b2c"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "d795a271954b24552cd553d4a0623331fee8f29007c54a30924d411579462188"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.sr.animesrbija",
+      "apk": {
+        "http_status": 200,
+        "sha256": "5d3409deef7fb9952fe8206195199136d4a25cd02329246bb91ce29c84328483"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "dee75e41cddc88b28e7a87f3e45e41e95fe9b70048ff54827e9a8d163855d8d9"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.tr.animeler",
+      "apk": {
+        "http_status": 200,
+        "sha256": "39f127684312dd7aa40d88c782b24077b3c58695bd763c30c303c03e4b1b8f1a"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "c469843f883bbc369566ea85b88f3629d0e582f2f7df6026a07a2285f222180c"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.tr.anizm",
+      "apk": {
+        "http_status": 200,
+        "sha256": "0a52dbb3e8b1390f84550abedd1b4159121d2ffc3473db421b1b904fc5e7cca7"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "a3ec6165e9e02dc4041f0afa9da48e33248da6d62906d8496c83f1d5ad1f80e5"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.tr.asyaanimeleri",
+      "apk": {
+        "http_status": 200,
+        "sha256": "7053d9415cbf04b4f1f654bdf8f4ddb5c5c0a875d82b5b49075a2411e3dc4659"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "32dabc95af605a529a2db00ca99542b797dadf9671f1f7d1370e52c75f0fee12"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.tr.hdfilmcehennemi",
+      "apk": {
+        "http_status": 200,
+        "sha256": "f4542c9ff6ecb383e32301c48c7debf8c7909edab1f38f00436972e046f7e293"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "cf1c3c11791d6f32413d66879bf84ed761d7135186ff12944ca832ac49929fc1"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.tr.tranimeci",
+      "apk": {
+        "http_status": 200,
+        "sha256": "184a030c9d4e0cfc6747f790c94ff05b66fc2e2a8365c91e781281ed3cf2d46e"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "15847ae97fdf211cc18bdc279cd0c3930d8b05b77be6608f6e821546687776f1"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.tr.tranimeizle",
+      "apk": {
+        "http_status": 200,
+        "sha256": "c89600ad7eb9ff187e6685a868410c12e3173399a08a9dd13ddd866dfeec5efa"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "ae5a4c0528f37476b112943d47b3e8e261224fec2558aab906d97de1f3936ea8"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.uk.uakino",
+      "apk": {
+        "http_status": 200,
+        "sha256": "f9d1104eb7e419a49de6f223aa5f19ff58dd06e2d955a64cf26048afc3c0c4bd"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "f04bb350243673cce0c14784612eb63225d4fdbe19e50ab0d1bf6fb722de3abd"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.uk.ufdub",
+      "apk": {
+        "http_status": 200,
+        "sha256": "2d5ca6f7e4d515a6f349506801e9ec9735f05095bb55aa566cba9b110262d6de"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "3d0284d6deca561705c915f991a25c1146f6cd4778059f87689d994f2392e65d"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.zh.anime1",
+      "apk": {
+        "http_status": 200,
+        "sha256": "fa5bda416aa643af5ec98ddbc4273b4d4b54f62f443b6aa8de79cc1cc131b50c"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "261433c1354f45f11b434b0e17a1aa061bf0650160fc27dc228169b1c0c40e62"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.zh.cycity",
+      "apk": {
+        "http_status": 200,
+        "sha256": "4a5900adc6ab1252c482b56b7a0007eae62fc697eccbbbbd23d5535177457fa6"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "6f564d64171382dd8ab0cbab3201d4dbb7aa0ce04ad214017e904d3ea19206dd"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.zh.hanime1",
+      "apk": {
+        "http_status": 200,
+        "sha256": "7c06a1978c217a94febdc4d7c08f32ceee091c3512dbb4ddc71c9e3dc415887e"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "a5e9a28ec6fd3407b7fbf423d83d737cfa776d7cb1c37435d4c7a1e963f389f8"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.zh.iyf",
+      "apk": {
+        "http_status": 200,
+        "sha256": "8f1c8d7f9dd1f4506dc5d6024b5a4be6eb5c1edf2f754b93fabe5e237766b297"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "cecc533f5b171a1a05a23c9087a76c4f1fbb5afa1c764db9a639c91cd707553c"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.zh.nivod",
+      "apk": {
+        "http_status": 200,
+        "sha256": "a9c06999b99cd77747b39f7baec4d649aaf6bd5ad35478a8e0f39889f8709966"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "2714146aae579598a40321811823ee5b928f2b130bbbb2d3d44332d4c02766d6"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.zh.xfani",
+      "apk": {
+        "http_status": 200,
+        "sha256": "aeae4573b7f08220daf2d93e42ff858e802975320e005092ed1d6aad29a9c258"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "19de43f734a9cf0607f6e0f5d494e8f5926d0a7850c86835a74e893203edbe98"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.zh.xiaoxintv",
+      "apk": {
+        "http_status": 200,
+        "sha256": "5c76638b540b981834cda252ddf62a0e68067f2d40399ddd8428d3840aaae1ad"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "a6fd885c95df3d3660b9ac9f583d2660ea104c32a43fd876144f798ef050463d"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.anidong",
+      "apk": {
+        "http_status": 200,
+        "sha256": "9a74398302d150998cb31b185fa62c2e55782f30151cf00598cc3ad7c3e22c15"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "f198e77e8c18b0c00a0b5b2c07c9861f584512be59e1989efd85f6f611928cba"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.animescx",
+      "apk": {
+        "http_status": 200,
+        "sha256": "3a797a9ba1b19b7d63ffbb139727b8aff1ac07a1ba4e91d07ad15d175173c2f8"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "8621e98fe5769ac2b7605c00f9c5594ac5cbcb3943e2c2143e5d77717b3fe701"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.animesgames",
+      "apk": {
+        "http_status": 200,
+        "sha256": "a41869922bf5d6e32715b28c9e15f1c7fd958e5f9f86c86b961119706948e966"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "b00931841ce5181b524d9555e13b1f9db9beeb41ad9481b2da4b826bd3d1f332"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.animesroll",
+      "apk": {
+        "http_status": 200,
+        "sha256": "c4f61cd3f9dba9ad6e81a71959721af898128ec83e398647e1eddc59af98a425"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "d206c8bc96a0b164262c23d9b094a77220a55b8971ca0404a8871b6f698c74b4"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.animeszone",
+      "apk": {
+        "http_status": 200,
+        "sha256": "175d019aa376c4cc19d7c0848d5656fbeb5ecb71222169114d434f229a83f114"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "9bd4b694d6655b201289334267b54993be1a931b06e956fe30874fe9b7bb7e46"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.betteranime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "1329622e46e029b68d519b220e80bcb0110eb3c57b4d971402773475718716eb"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "7100dd5b128ae81da48a49379482f58a7c06609d86b32afd9e9f75880af41d2f"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.flixei",
+      "apk": {
+        "http_status": 200,
+        "sha256": "ec877e97346672219a7ccaa0c598057952224ce6b0842f71213257247c550e99"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "7779bdfc1a0cef02bb9b8fb99494e46efb502ec729784f8cca5725de74a31885"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.goanimes",
+      "apk": {
+        "http_status": 200,
+        "sha256": "e54cadc6d66508c30f55294e9f5477f2289db89072dfdbe9c0cdf373a7842172"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "3c082eca8b5b4239a4609a72118b50a682ab2e9211ddd2ed087b4ea46175c860"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.hentaistube",
+      "apk": {
+        "http_status": 200,
+        "sha256": "df4d3a2e43f93ab0856cd74488781033fdfaa2869098acfb517a6cc655e849e2"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "05346dc3f0c880b8af3cac43f8dfa195555e8edd8608ecf41682640e74482743"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.hinatasoul",
+      "apk": {
+        "http_status": 200,
+        "sha256": "eaecc1a70a6b68446f220cdc59db5284bd398fd64ca5343c41a92752e9f61b08"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "b0f07e824f41ae4a7b62c9125ace9af4403b266b1ece488226a0c701723c4920"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.megaflix",
+      "apk": {
+        "http_status": 200,
+        "sha256": "c90c9ad332acdffc08f84b52be2c63d31e3fbbcd1e3d169dcc8b5ed244470fdc"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "c1c0a13ed8a8f407dc2a26f3b642763a9f8c33aaac8028e1281afa1a1921871a"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.pobreflix",
+      "apk": {
+        "http_status": 200,
+        "sha256": "3b38ca4b1553f62b4a7b159d20e5d64af2be09291765f6a717c3a5b138a5624d"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "6ce826fc022fdba25fc50963451fd66b1e0e295807cab32e3e0149edc758da6e"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.rinecloud",
+      "apk": {
+        "http_status": 200,
+        "sha256": "5f69155701193b02bf04ee5af30cdcbd34674fb0f1a53ff83b4ec2b5e8c5a12c"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "7ece3e026a01da292af1eeb83d91c70bee24a67b0ef21e4a8c6ef9d39350fa49"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.pt.vizer",
+      "apk": {
+        "http_status": 200,
+        "sha256": "2121f2ab54d8c6102b1043ecbf3dd3e6e34995d246ded78589ee42e0eaa1a6e5"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "efaedbb920a2838d1cf60ab9a99b5ce3fa3d029cea09433da3a4b9b46d5ab202"
+      }
+    },
+    {
+      "package": "eu.kanade.tachiyomi.animeextension.tr.turkanime",
+      "apk": {
+        "http_status": 200,
+        "sha256": "f047497329b152c76cd98ef83ab5f58ebf070c89ef05fe19308597a3bfe2eba2"
+      },
+      "icon": {
+        "http_status": 200,
+        "sha256": "b446bb5d0c5e50258b1f1190e484bec75f6dd04dfde288e88aa217462b43788a"
+      }
+    }
+  ],
+  "counts": {
+    "extensions": 266,
+    "apk_downloads_verified": 266,
+    "icon_downloads_verified": 266,
+    "nsfw": 77
+  }
+}

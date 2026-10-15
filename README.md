@@ -1,11 +1,13 @@
 # Cryoflam3 Nekoyomi Anime Extensions
 
-**Prepared release candidate — not yet published or tested on an Android device.**
+**Published repository — automated validation passed; Android installation and source playback remain untested.**
 This repository contains 266 original, signature-verified APKs: 251 from Yūzōnō and 15 additional Cursedyomi packages. It preserves 77 NSFW and 189 standard extension flags. These flags come from APK manifests; they do not certify the content of every source.
 
-## Installation after publication
+## Installation
 
-The following is the **intended URL**, not a currently verified live endpoint:
+Live checks returned HTTP 200 for both indexes and metadata. All 266 APKs and 266 icons were downloaded and matched their pinned SHA-256 hashes. See [live verification evidence](reports/live-validation.json) and the [successful publication run](https://github.com/Cryoflam3/nekoyomi-anime-extensions/actions/runs/38819882222).
+
+Add this published repository URL:
 
 `https://raw.githubusercontent.com/Cryoflam3/nekoyomi-anime-extensions/main/index.min.json`
 
@@ -40,7 +42,7 @@ python3 scripts/check_updates.py > upstream-changes.json
 
 `build_repository.py` assembles the distribution from reviewed original APKs; it is not an APK compiler. It downloads only pinned, hash-checked files when local copies are absent. No APK rebuild was needed to fix the malformed repository URLs.
 
-GitHub Actions validates pushes and pull requests, reconstructs the distribution, and produces a weekly report of upstream changes. The manually dispatched publish workflow validates before committing generated files, does not force-push and does not replace releases. Configure the `public-publishing` environment with a required reviewer before using it. These workflows are prepared but have not yet run on GitHub. Protect `main` and require the validation job before merging changes; files committed directly to `main` are public before Actions completes.
+GitHub Actions validates pushes and pull requests, reconstructs the distribution, and produces a weekly report of upstream changes. The manually dispatched publish workflow validates before committing generated files, does not force-push and does not replace releases. The initial user-approved publish and validation workflows passed on GitHub. Maintainers can configure the `public-publishing` environment with required reviewers for future releases. Protect `main` and require the validation job before merging changes; files committed directly to `main` are public before Actions completes.
 
 ## Rebuilding extensions
 
@@ -48,7 +50,7 @@ Upstream build sources and inspected commits are pinned in `upstreams.lock.json`
 
 Rebuilding changes signing requirements. Do not distribute debug-signed packages as releases. Store a long-lived private keystore and its passwords in restricted GitHub Actions secrets or an external signing service, never in this repository. Only the original signer can produce an ordinary in-place update to an original APK. A new key requires a documented migration and runtime testing. There is no newly generated key or claim of signing authority in this project.
 
-The requested Hentaigasm 14.2 icon/version change is maintained in a separate **personal-use build bundle**. It is not included in this public candidate: compilation and signing remain blocked, and its source does not clearly permit public redistribution.
+The requested Hentaigasm 14.2 icon/version change is maintained in a separate **personal-use build bundle**. It is not included in this public repository: compilation and signing remain blocked, and its source does not clearly permit public redistribution.
 
 ## Coverage and attribution
 

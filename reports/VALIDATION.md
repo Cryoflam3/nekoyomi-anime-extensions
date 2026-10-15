@@ -2,11 +2,15 @@
 
 ## Result and limits
 
-Prepared locally: **266 APKs**, **77 NSFW / 189 standard**, from three Apache-2.0 source projects after duplicate resolution (selected packages originate from two projects). No public repository has been created or modified. No new release was replaced. Manga repositories were not touched.
+Published: **266 APKs**, **77 NSFW / 189 standard**, from three Apache-2.0 source projects after duplicate resolution (selected packages originate from two projects). Created `Cryoflam3/nekoyomi-anime-extensions` with user authorization. Validation and publishing workflows passed; no existing repository or release was replaced. Manga repositories were not touched.
 
 All 301 APK entries across the five originals passed Android Build Tools 35.0.0 `apksigner verify`, package/version consistency, anime feature, source class descriptor presence, manifest NSFW and Nekoyomi API-range checks. This is static compatibility evidence, not proof of source initialization or playback. The 266-file consolidated tree passed the standalone validator, and reconstruction reproduced its indexes and assets byte-for-byte.
 
 321 HTTP HEAD checks: all five supplied nested index URLs returned 404; all five correct metadata and index endpoints returned 200. All 300 expected upstream APK paths outside Cryoflam3 returned 200. Cryoflam3's expected `/apk/` path returned 404. Git clones supplied the actual APK bytes for all 301 entries. Full evidence: `http-audit.json` and `apk-audit.json`.
+
+## Public endpoint verification
+
+Published asset commit: `c4e278619247504db94ab0b7cf521b23c24ecd66`. Independent live GET checks returned HTTP 200 for `repo.json`, `index.json`, `index.min.json`, 266 APKs and 266 icons. Every APK/icon SHA-256 matched the reviewed lock. All three JSON documents matched the locally validated documents. `index.min.json` is 81,078 bytes; SHA-256 `a51c3a46e130cf7654cf857ef7213495c4c7411d7cfc939ac5ab760aae90eedd`. Full evidence: `live-validation.json`. Reproduce with `python3 scripts/verify_live.py`.
 
 ## Application investigation
 
@@ -27,7 +31,7 @@ Adding a repository happens before downloading or loading an APK. APK signing ca
 
 ## Per-repository findings
 
-| Repository | Published entries | Prepared import | Status and exact blocker |
+| Repository | Published entries | Published import | Status and exact blocker |
 |---|---:|---:|---|
 | Cryoflam3 Hentaigasm | 1 | 0 | Corrected index resolves, but APK/icon sit at root instead of `apk/` and `icon/`. `no-info` is not a real certificate. APK is byte-identical to Addons Hentaigasm and signed `5db0…c2ff`. Source identified as `aniyomi-addons/hentaigasm-ext`; README permits personal use, not clearly public redistribution. Icon/version 14.2 change prepared separately, build/signing pending. |
 | Yūzōnō Anime | 251 | 251 | Corrected metadata and index valid; APKs, API range and signatures validated. Apache-2.0 source at `yuzono/anime-extensions`. All selected. Runtime untested. |
@@ -70,14 +74,14 @@ An in-place update requires the existing signer's private key. A new owner-contr
 
 ## Remaining tests before calling this working
 
-1. Approve creation/publication of the new candidate repository; confirm its real raw URL returns the exact metadata, index and APK bytes.
-2. Run GitHub Actions and verify success on the published commit.
+1. Publication authorized and completed. See `live-validation.json` for independent public endpoint checks.
+2. GitHub validation run `38819826299` and publish run `38819882222` succeeded.
 3. On Nekoyomi 0.20.6: add the anime repo and confirm extension list appears. Do not edit manga repos.
 4. Download and install at least one standard and one NSFW extension, verify fingerprints and trust them as appropriate.
 5. Exercise popular/latest, search, details, episodes and playback for each source you use. Record errors and app logs for targeted fixes.
 6. Test a same-signer version upgrade on-device. Cross-provider duplicates are migrations, not guaranteed updates.
 7. Confirm NSFW visibility toggles work. This checks app filtering, not the safety or legality of all content served by external sites.
 
-No Android device/emulator, app acceptance, installation, source runtime or update-installation test was available in this session. Prepared workflows are not represented as successfully executed workflows.
+No Android device/emulator, app acceptance, installation, source runtime or update-installation test was available in this session. The repository validation and publishing workflows succeeded; the separate personal Hentaigasm APK build remains unexecuted.
 
 Additional tooling verification: all Python scripts compile; actionlint 1.7.12 passed all four workflows. Negative tests rejected signer changes, version downgrades and changed APK bytes without a version increase. A per-package device-test matrix records every runtime check as not-tested.
