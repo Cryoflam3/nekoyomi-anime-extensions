@@ -1,8 +1,10 @@
 # Validation report — 2026-10-15
 
-## Result and limits
+## What is ready
 
-Published: **266 APKs**, **77 NSFW / 189 standard**, from three Apache-2.0 source projects after duplicate resolution (selected packages originate from two projects). Created `Cryoflam3/nekoyomi-anime-extensions` with user authorization. Validation and publishing workflows passed; no existing repository or release was replaced. Manga repositories were not touched.
+The combined repository is live with **266 APKs: 77 NSFW and 189 standard**. It contains 251 Yūzōnō packages and 15 Cursedyomi packages. AwkwardPeak7 was reviewed too, but its two sources overlap with the selected Yūzōnō versions. GitHub validation and publishing passed. Manga repositories were not changed.
+
+Hentaigasm 14.2 was later rebuilt and published separately in [its original repository](https://github.com/Cryoflam3/hentaigasm-aniyomi-repo), after Cryoflam3 confirmed permission to distribute the modified APK. The combined index still contains 266 packages.
 
 All 301 APK entries across the five originals passed Android Build Tools 35.0.0 `apksigner verify`, package/version consistency, anime feature, source class descriptor presence, manifest NSFW and Nekoyomi API-range checks. This is static compatibility evidence, not proof of source initialization or playback. The 266-file consolidated tree passed the standalone validator, and reconstruction reproduced its indexes and assets byte-for-byte.
 
@@ -33,7 +35,7 @@ Adding a repository happens before downloading or loading an APK. APK signing ca
 
 | Repository | Published entries | Published import | Status and exact blocker |
 |---|---:|---:|---|
-| Cryoflam3 Hentaigasm | 1 | 0 | Corrected index resolves, but APK/icon sit at root instead of `apk/` and `icon/`. `no-info` is not a real certificate. APK is byte-identical to Addons Hentaigasm and signed `5db0…c2ff`. Source identified as `aniyomi-addons/hentaigasm-ext`; README permits personal use, not clearly public redistribution. Icon/version 14.2 change prepared separately, build/signing pending. |
+| Cryoflam3 Hentaigasm | 1 | 0 | The original index had broken APK/icon paths and an invalid certificate placeholder. These are now repaired in its separate repository. Version 14.2 has a new icon and personal signing key; it requires migration from the original signer. Cryoflam3 confirmed developer permission to publish the modified APK. It is not part of this combined index. |
 | Yūzōnō Anime | 251 | 251 | Corrected metadata and index valid; APKs, API range and signatures validated. Apache-2.0 source at `yuzono/anime-extensions`. All selected. Runtime untested. |
 | AwkwardPeak7 | 2 | 0 | Apache-2.0; archived January 14, 2025. Both signed APKs pass checks, but Jav Guru and MissAV have source IDs identical to selected Yūzōnō sources under different package names. Excluded from primary index to avoid source ownership collisions. Licensed maintenance is possible, but no unneeded rebuild performed. |
 | Aniyomi Addons | 16 | 0 | Corrected repo and APK URLs work and signatures validate. Published metadata still names Goddivor. Examined individual source repositories; no LICENSE files found, several READMEs explicitly say personal use. No clear blanket public redistribution grant established. Seven package names overlap Yūzōnō with a different certificate. Permission required for these particular builds. |
@@ -41,7 +43,7 @@ Adding a repository happens before downloading or loading an APK. APK signing ca
 
 ### Corrected original URLs (HTTP 200 verified, not device acceptance)
 
-- Cryoflam3: `https://raw.githubusercontent.com/Cryoflam3/hentaigasm-aniyomi-repo/main/index.min.json` — APK download still broken until the original file layout is repaired.
+- Cryoflam3: `https://raw.githubusercontent.com/Cryoflam3/hentaigasm-aniyomi-repo/main/index.min.json` — now serves the separately rebuilt and signed 14.2 APK.
 - Yūzōnō: `https://raw.githubusercontent.com/yuzono/anime-repo/repo/index.min.json`
 - AwkwardPeak7: `https://raw.githubusercontent.com/AwkwardPeak7/aniyomi-extensions/repo/index.min.json`
 - Addons: `https://raw.githubusercontent.com/aniyomi-addons/anime-extensions-repo/repo/index.min.json`
@@ -66,11 +68,19 @@ The consolidated repo intentionally does not assert one of these is the signer o
 
 Preserved project Apache-2.0 license and README attribution for Yūzōnō, AwkwardPeak7 and Cursedyomi. Source projects, inspected commits, build files and license discoveries are recorded in `source-catalog.json`; selected APK provenance is pinned to publication commits in `upstreams.lock.json`. Inspected source heads are not a claim of bit-reproducible builds. No blanket permission is inferred from a public GitHub URL, a signed binary, or the user's ownership of a copied repository.
 
-## Hentaigasm requested change
+## Hentaigasm 14.2
 
-Separate personal-use bundle includes the new non-explicit crimson/violet H/play icon at all five Android densities and versionCode 2 (versionName 14.2). Source package and NSFW flag are preserved. Build scaffold derives from the Apache-2.0 Cursedyomi project and is scoped to this module. Local Gradle invocation failed before compilation with `java.net.SocketException: Network is unreachable` during Gradle distribution download. No rebuilt APK, installation or playback success is claimed. A private GitHub Actions build recipe and signing script are supplied, but neither has run on GitHub.
+The extension was rebuilt successfully with its new crimson/violet H/play icon and versionCode 2 (versionName 14.2). The build used Gradle 8.11.1, JDK 21, Android API 34 and Build Tools 35.0.0. The original package name and NSFW flag were preserved. Scraping logic was not changed.
 
-An in-place update requires the existing signer's private key. A new owner-controlled key requires explicit migration; changing only the index version or re-signing a copied binary is not a compatibility repair. No secret keys or passwords are included.
+The APK passed signature, alignment, package/version, source-class and icon checks. It uses a new personal signing certificate:
+
+`f2c157f8a9afe9e18210f63fdd804b4a7dfdf0389bb01d8415d5c272f59fa6c6`
+
+This key cannot produce an ordinary update over the original developer's APK. Back up settings before migrating. The key backup is private and is not in either GitHub repository.
+
+The source README says personal use. Cryoflam3 separately confirmed permission from the developer to publish modified APKs on October 15, 2026. That confirmation was not independently verified against a separate permission document, and it does not grant others a new license. Hentaigasm's public repository preserves the original notices.
+
+Installation and playback still need phone testing. The earlier Gradle download and Java compiler problems were resolved; the old unsigned-build limitation no longer applies to the published 14.2 APK.
 
 ## Remaining tests before calling this working
 
@@ -82,6 +92,6 @@ An in-place update requires the existing signer's private key. A new owner-contr
 6. Test a same-signer version upgrade on-device. Cross-provider duplicates are migrations, not guaranteed updates.
 7. Confirm NSFW visibility toggles work. This checks app filtering, not the safety or legality of all content served by external sites.
 
-No Android device/emulator, app acceptance, installation, source runtime or update-installation test was available in this session. The repository validation and publishing workflows succeeded; the separate personal Hentaigasm APK build remains unexecuted.
+No Android device/emulator, app acceptance, installation, source runtime or update-installation test was available in this session. The repository validation and publishing workflows succeeded; Hentaigasm 14.2 was compiled locally; its separate GitHub build recipe has not been run.
 
 Additional tooling verification: all Python scripts compile; actionlint 1.7.12 passed all four workflows. Negative tests rejected signer changes, version downgrades and changed APK bytes without a version increase. A per-package device-test matrix records every runtime check as not-tested.

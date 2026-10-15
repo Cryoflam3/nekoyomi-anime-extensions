@@ -1,57 +1,64 @@
-# Cryoflam3 Nekoyomi Anime Extensions
+# Cryoflam3 Anime Extensions for Nekoyomi
 
-**Published repository — automated validation passed; Android installation and source playback remain untested.**
-This repository contains 266 original, signature-verified APKs: 251 from Yūzōnō and 15 additional Cursedyomi packages. It preserves 77 NSFW and 189 standard extension flags. These flags come from APK manifests; they do not certify the content of every source.
+A collection of 266 anime extensions for Nekoyomi: 251 from Yūzōnō and 15 from Cursedyomi. It includes 189 standard extensions and 77 marked NSFW, with the original APKs and signatures preserved.
 
-## Installation
+The repository files and downloads have passed automated checks. Installation and playback still need testing on an Android device.
 
-Live checks returned HTTP 200 for both indexes and metadata. All 266 APKs and 266 icons were downloaded and matched their pinned SHA-256 hashes. See [live verification evidence](reports/live-validation.json) and the [successful publication run](https://github.com/Cryoflam3/nekoyomi-anime-extensions/actions/runs/38819882222).
+## Add the repository
 
-Add this published repository URL:
+Copy this URL:
 
-`https://raw.githubusercontent.com/Cryoflam3/nekoyomi-anime-extensions/main/index.min.json`
+```text
+https://raw.githubusercontent.com/Cryoflam3/nekoyomi-anime-extensions/main/index.min.json
+```
 
 1. In Nekoyomi 0.20.6, open **More → Settings → Browse → Anime extension repos**.
-2. Tap **+ / Add**, paste the URL above, and confirm. A base URL ending in `/main` is also accepted by this version.
-3. Open **Browse → Anime Extensions**, refresh, and enable the relevant language filters.
-4. Install an extension. Allow Android's “Install unknown apps” permission for Nekoyomi if prompted.
-5. If Nekoyomi marks it untrusted, compare its SHA-256 certificate with `upstreams.lock.json`, then use the extension's **Trust** action if you accept that signer.
-6. Enable **Show NSFW content** in Browse settings if desired. Check source visibility and language filters too.
-7. Test source browsing, search, details, episode listing and playback. No successful device test is claimed yet.
+2. Tap **Add**, paste the URL, and confirm.
+3. Go to **Browse → Anime Extensions** and refresh the list. Check your language filters if an extension is missing.
+4. Install the extensions you want. Android may ask you to allow installations from Nekoyomi.
+5. If an extension needs to be trusted, compare its certificate with the entry in [upstreams.lock.json](upstreams.lock.json) before trusting it.
+6. To see adult extensions, enable **Show NSFW content** in Browse settings.
 
-Do not add a path containing `/repo.json/index.min.json`. `repo.json` and `index.min.json` are sibling files, not directories. Do not change manga repositories.
+Use the URL exactly as shown. Adding `/repo.json/` before `index.min.json` causes the invalid-repository error. Your manga repositories do not need any changes.
 
-## Signatures and existing installations
+## What has been checked?
 
-APKs are copied unchanged, never re-signed. Nekoyomi supports one repository fingerprint, while this collection contains multiple original signers. The repository uses the app-supported `NOFINGERPRINT` convention and requires manual extension trust rather than falsely claiming one certificate signs everything.
+Both indexes and the repository metadata returned HTTP 200. All 266 APKs and 266 icons downloaded successfully and matched their recorded SHA-256 hashes. The APKs also passed signature and package metadata checks.
 
-An installed APK from the **same provider and signer** retains its Android signing identity. A matching package installed from a **different provider** can have a different certificate and cannot be seamlessly updated by this mirror. Review `reports/signing-conflicts.json`. Back up your library and source settings before considering a provider migration; do not uninstall extensions blindly.
+See the [validation report](reports/VALIDATION.md), [download checks](reports/live-validation.json), and [successful publishing run](https://github.com/Cryoflam3/nekoyomi-anime-extensions/actions/runs/38819882222).
 
-The lock records each APK's SHA-256, signing certificate, version, source index, immutable download origin and icon checksum. Updates must retain signer identity and increase versionCode for changed APK bytes. Upstream removals and signer rotations require review.
+These checks do not prove that every source can browse or play videos. Source websites can change independently of this repository.
 
-## Build and validate
+## Existing installations and updates
 
-Requires Python 3, Java and Android SDK Build Tools 35.0.0.
+The APKs here keep their original signatures. If you already have the same package from another provider, its signature may differ and Android may reject the update. Check the [signing conflicts](reports/signing-conflicts.json) and back up your library and source settings before switching providers.
+
+Because this collection has several original signers, it uses Nekoyomi's `NOFINGERPRINT` option. You may need to trust individual extensions, including after an update.
+
+## Hentaigasm
+
+[Hentaigasm 14.2 has its own repository](https://github.com/Cryoflam3/hentaigasm-aniyomi-repo). It has a new icon and a new personal signing key. Read its migration instructions before installing it over an older version. It is separate from this 266-extension index.
+
+## Maintenance
+
+The lock file records versions, hashes, certificates and the exact upstream commits used. Validation catches duplicate packages, duplicate source IDs, unexpected signer changes and version regressions.
+
+GitHub Actions checks pushes and pull requests. A weekly workflow reports upstream changes for review; it does not automatically import them. The manual publishing workflow validates the files before publishing them.
+
+To check or reconstruct the repository locally, use Python 3, Java and Android Build Tools 35.0.0:
 
 ```sh
 python3 scripts/validate.py --build-tools "$ANDROID_HOME/build-tools/35.0.0"
 python3 scripts/build_repository.py --output /tmp/nekoyomi-dist
 python3 scripts/validate.py --root /tmp/nekoyomi-dist --build-tools "$ANDROID_HOME/build-tools/35.0.0"
 python3 scripts/check_updates.py > upstream-changes.json
+python3 scripts/verify_live.py
 ```
 
-`build_repository.py` assembles the distribution from reviewed original APKs; it is not an APK compiler. It downloads only pinned, hash-checked files when local copies are absent. No APK rebuild was needed to fix the malformed repository URLs.
+The build script assembles the repository from the reviewed APKs. It does not compile new APKs. Rebuilt extensions need an appropriate signing key and device testing before release. Never commit signing keys or passwords.
 
-GitHub Actions validates pushes and pull requests, reconstructs the distribution, and produces a weekly report of upstream changes. The manually dispatched publish workflow validates before committing generated files, does not force-push and does not replace releases. The initial user-approved publish and validation workflows passed on GitHub. Maintainers can configure the `public-publishing` environment with required reviewers for future releases. Protect `main` and require the validation job before merging changes; files committed directly to `main` are public before Actions completes.
+## Credits
 
-## Rebuilding extensions
+Thanks to the Yūzōnō, Cursedyomi and AwkwardPeak7 developers. Their notices and Apache-2.0 licenses are preserved under [licenses](licenses/). The supporting scripts use the [MIT license](LICENSE); this does not change the licenses of third-party code or artwork.
 
-Upstream build sources and inspected commits are pinned in `upstreams.lock.json`. Yūzōnō uses `gradle/build-logic`, `src/<lang>/<source>/build.gradle` and `.github/workflows/build_push.yml`; Cursedyomi and AwkwardPeak7 use `common.gradle`, `buildSrc` and their build workflows. Inspected source heads are not asserted to reproduce every published APK byte-for-byte.
-
-Rebuilding changes signing requirements. Do not distribute debug-signed packages as releases. Store a long-lived private keystore and its passwords in restricted GitHub Actions secrets or an external signing service, never in this repository. Only the original signer can produce an ordinary in-place update to an original APK. A new key requires a documented migration and runtime testing. There is no newly generated key or claim of signing authority in this project.
-
-The requested Hentaigasm 14.2 icon/version change is maintained in a separate **personal-use build bundle**. It is not included in this public repository: compilation and signing remain blocked, and its source does not clearly permit public redistribution.
-
-## Coverage and attribution
-
-See `reports/VALIDATION.md` for all five requested repositories, URLs, exclusions and device-test checklist. Original copyright and license texts are retained under `licenses/`. All mirrored APKs are unchanged Apache-2.0 project artifacts; upstream ownership is preserved. Supporting script code in this repository is licensed under MIT (see `LICENSE`); that does not relicense third-party APKs, artwork or source code.
+The [exclusion list](reports/excluded.json) explains which original builds were left out and why.
